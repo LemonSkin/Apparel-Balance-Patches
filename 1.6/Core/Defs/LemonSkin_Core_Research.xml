@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>LemonSkin_RusticClothing</defName>
+    <label>rustic clothing</label>
+    <description>Tailor simple garments.</description>
+    <baseCost>400</baseCost>
+    <tab></tab>
+    <techLevel>Medieval</techLevel>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>4.90</researchViewY>
+  </ResearchProjectDef>
+</Defs>

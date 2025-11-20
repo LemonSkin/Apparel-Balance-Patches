@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Rustic Clothing -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="LemonSkin_RusticClothing"]/label</xpath>
+        <value>
+          <label>rustic tailoring</label>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="LemonSkin_RusticClothing"]/tab</xpath>
+        <value>
+          <tab>DankPyon_MedievalResearchTab</tab>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="LemonSkin_RusticClothing"]/researchViewX</xpath>
+        <value>
+          <researchViewX>7.0</researchViewX>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="LemonSkin_RusticClothing"]/researchViewY</xpath>
+        <value>
+          <researchViewY>1.80</researchViewY>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- Complex Clothing -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="ComplexClothing"]/label</xpath>
+        <value>
+          <label>complex tailoring</label>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="ComplexClothing"]/tab</xpath>
+        <value>
+          <tab></tab>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="ComplexClothing"]/researchViewX</xpath>
+        <value>
+          <researchViewX>0.00</researchViewX>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="ComplexClothing"]/researchViewY</xpath>
+        <value>
+          <researchViewY>4.90</researchViewY>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- Protective Clothing -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="DankPyon_ProtectiveClothing"]/prerequisites/li[.="ComplexClothing"]</xpath>
+    <value>
+      <li>LemonSkin_RusticClothing</li>
+    </value>
+  </Operation>
+</Patch>

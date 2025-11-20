@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Royalty Integration -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Royalty</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VFEM2_Apparel_JesterHat"]/recipeMaker/researchPrerequisite</xpath>
+          <value>
+            <researchPrerequisite>NobleApparel</researchPrerequisite>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VFEM2_Apparel_JesterOutfit"]/recipeMaker/researchPrerequisite</xpath>
+          <value>
+            <researchPrerequisite>NobleApparel</researchPrerequisite>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VFEM2_Apparel_DameHat"]/recipeMaker/researchPrerequisite</xpath>
+          <value>
+            <researchPrerequisite>NobleApparel</researchPrerequisite>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VFEM2_Apparel_DameDress"]/recipeMaker/researchPrerequisite</xpath>
+          <value>
+            <researchPrerequisite>NobleApparel</researchPrerequisite>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VFEM2_Apparel_KingsRobes"]/recipeMaker/researchPrerequisite</xpath>
+          <value>
+            <researchPrerequisite>RoyalApparel</researchPrerequisite>
+          </value>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>Defs/ThingDef[defName="VFEM2_Apparel_KingsCrown"]/recipeMaker/researchPrerequisite</xpath>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="VFEM2_Apparel_KingsCrown"]/recipeMaker</xpath>
+          <value>
+            <researchPrerequisites>
+              <li>RoyalApparel</li>
+              <li>Smithing</li>
+            </researchPrerequisites>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

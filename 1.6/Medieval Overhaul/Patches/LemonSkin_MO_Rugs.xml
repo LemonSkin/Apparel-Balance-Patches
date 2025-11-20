@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Base rugs -->
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[@Name="DankPyon_FurnitureBaseRug"]/researchPrerequisites</xpath>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[@Name="DankPyon_FurnitureBaseRug"]</xpath>
+    <value>
+      <recipeMaker>
+        <researchPrerequisites>
+          <li>LemonSkin_MO_Rugs</li>
+        </researchPrerequisites>
+      </recipeMaker>
+    </value>
+  </Operation>
+  <!-- Royal rugs -->
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[@Name="DankPyon_RugRoyalBase"]/researchPrerequisites</xpath>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[@Name="DankPyon_RugRoyalBase"]</xpath>
+    <value>
+      <recipeMaker>
+        <researchPrerequisites>
+          <li>LemonSkin_MO_Rugs</li>
+          <li>DankPyon_RoyalRusticFurniture</li>
+        </researchPrerequisites>
+      </recipeMaker>
+    </value>
+  </Operation>
+  <!-- Silk rugs -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[@Name="DankPyon_Rug_LootOnlyBase"]</xpath>
+    <value>
+      <recipeMaker>
+        <researchPrerequisites>
+          <li>LemonSkin_MO_Rugs</li>
+          <li>DankPyon_Silk</li>
+        </researchPrerequisites>
+      </recipeMaker>
+    </value>
+  </Operation>
+</Patch>
