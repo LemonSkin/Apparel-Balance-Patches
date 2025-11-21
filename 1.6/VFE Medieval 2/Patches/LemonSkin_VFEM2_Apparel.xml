@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Patch leather armour -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VFEM2_Apparel_LeatherArmor"]/recipeMaker/researchPrerequisite</xpath>
+        <value>
+          <researchPrerequisite>LemonSkin_LeatherArmour</researchPrerequisite>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VFEM2_Apparel_LeatherArmor"]/recipeMaker/recipeUsers</xpath>
+        <order>Append</order>
+        <value>
+          <li>ElectricTailoringBench</li>
+          <li>HandTailoringBench</li>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VFEM2_Apparel_LeatherHelmet"]/recipeMaker/researchPrerequisite</xpath>
+        <value>
+          <researchPrerequisite>LemonSkin_LeatherArmour</researchPrerequisite>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VFEM2_Apparel_LeatherHelmet"]/recipeMaker/recipeUsers</xpath>
+        <order>Append</order>
+        <value>
+          <li>ElectricTailoringBench</li>
+          <li>HandTailoringBench</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- Patch heavy leather armour -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VFEM2_Apparel_HeavyLeatherArmor"]/recipeMaker/researchPrerequisite</xpath>
+        <value>
+          <researchPrerequisite>LemonSkin_LeatherArmour</researchPrerequisite>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VFEM2_Apparel_HeavyLeatherArmor"]/recipeMaker/recipeUsers</xpath>
+        <order>Append</order>
+        <value>
+          <li>ElectricTailoringBench</li>
+          <li>HandTailoringBench</li>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VFEM2_Apparel_HeavyLeatherHelmet"]/recipeMaker/researchPrerequisite</xpath>
+        <value>
+          <researchPrerequisite>LemonSkin_LeatherArmour</researchPrerequisite>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VFEM2_Apparel_HeavyLeatherHelmet"]/recipeMaker/recipeUsers</xpath>
+        <order>Append</order>
+        <value>
+          <li>ElectricTailoringBench</li>
+          <li>HandTailoringBench</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- Patch remaining clothes -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VFEM2_Apparel_PaddedHelmet"]/recipeMaker/researchPrerequisite</xpath>
+        <value>
+          <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VFEM2_Apparel_PaddedArmor"]/recipeMaker</xpath>
+        <value>
+          <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VFEM2_Apparel_Cap"]/recipeMaker/researchPrerequisite</xpath>
+        <value>
+          <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VFEM2_Apparel_Mantle"]/recipeMaker</xpath>
+        <value>
+          <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VFEM2_Apparel_PlagueMask"]/recipeMaker/researchPrerequisite</xpath>
+        <value>
+          <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VFEM2_Apparel_Chaperon"]/recipeMaker/researchPrerequisite</xpath>
+        <value>
+          <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

@@ -37,11 +37,8 @@
             <researchPrerequisite>RoyalApparel</researchPrerequisite>
           </value>
         </li>
-        <li Class="PatchOperationRemove">
+        <li Class="PatchOperationReplace">
           <xpath>Defs/ThingDef[defName="VFEM2_Apparel_KingsCrown"]/recipeMaker/researchPrerequisite</xpath>
-        </li>
-        <li Class="PatchOperationAdd">
-          <xpath>Defs/ThingDef[defName="VFEM2_Apparel_KingsCrown"]/recipeMaker</xpath>
           <value>
             <researchPrerequisites>
               <li>RoyalApparel</li>
@@ -51,5 +48,48 @@
         </li>
       </operations>
     </match>
+    <nomatch Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VFEM2_Apparel_JesterHat"]/recipeMaker/researchPrerequisite</xpath>
+          <value>
+            <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VFEM2_Apparel_JesterOutfit"]/recipeMaker/researchPrerequisite</xpath>
+          <value>
+            <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VFEM2_Apparel_DameHat"]/recipeMaker/researchPrerequisite</xpath>
+          <value>
+            <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VFEM2_Apparel_DameDress"]/recipeMaker/researchPrerequisite</xpath>
+          <value>
+            <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VFEM2_Apparel_KingsRobes"]/recipeMaker/researchPrerequisite</xpath>
+          <value>
+            <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VFEM2_Apparel_KingsCrown"]/recipeMaker/researchPrerequisite</xpath>
+          <value>
+            <researchPrerequisites>
+              <li>LemonSkin_RusticClothing</li>
+              <li>Smithing</li>
+            </researchPrerequisites>
+          </value>
+        </li>
+      </operations>
+    </nomatch>
   </Operation>
 </Patch>

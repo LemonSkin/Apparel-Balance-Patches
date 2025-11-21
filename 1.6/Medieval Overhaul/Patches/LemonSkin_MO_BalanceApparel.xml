@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- GENERAL -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[@Name="DankPyon_ArmorHelmetMakeableBase"]/apparel</xpath>
+    <value>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+    </value>
+  </Operation>
+  <!-- ######################################### CLOTHES ######################################### -->
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="DankPyon_Handwear_GlovesLeather"]/equippedStatOffsets/WorkSpeedGlobal</xpath>
+  </Operation>
+  <!-- ######################################### ARMOUR ######################################### -->
+  <!-- ######################################### PROTECTIVE CLOTHING ######################################### -->
+  <!-- Light lamellar -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Light_Lamellar"]/recipeMaker/skillRequirements/Crafting</xpath>
+        <value>
+          <Crafting>2</Crafting>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Light_Lamellar"]/costStuffCount</xpath>
+        <value>
+          <costStuffCount>60</costStuffCount>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Light_Lamellar"]/statBases/WorkToMake</xpath>
+        <value>
+          <WorkToMake>2000</WorkToMake>
+        </value>
+      </li>
+      <!-- <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Light_Lamellar"]/statBases/MaxHitPoints</xpath>
+        <value>
+          <MaxHitPoints>100</MaxHitPoints>
+        </value>
+      </li> -->
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Light_Lamellar"]/statBases/Mass</xpath>
+        <value>
+          <Mass>3</Mass>
+        </value>
+      </li>
+      <!-- <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Light_Lamellar"]/statBases/StuffEffectMultiplierArmor</xpath>
+        <value>
+          <StuffEffectMultiplierArmor>0.45</StuffEffectMultiplierArmor>
+        </value>
+      </li> -->
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Light_Lamellar"]/statBases/StuffEffectMultiplierInsulation_Cold</xpath>
+        <value>
+          <StuffEffectMultiplierInsulation_Cold>0.6</StuffEffectMultiplierInsulation_Cold>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Light_Lamellar"]/statBases/EquipDelay</xpath>
+        <value>
+          <EquipDelay>1.5</EquipDelay>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Light_Lamellar"]/apparel/bodyPartGroups</xpath>
+        <value>
+          <bodyPartGroups>
+            <li>Torso</li>
+          </bodyPartGroups>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- Padded Armor -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Padded_Leather"]/costStuffCount</xpath>
+        <value>
+          <costStuffCount>70</costStuffCount>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Padded_Leather"]/statBases/WorkToMake</xpath>
+        <value>
+          <WorkToMake>3000</WorkToMake>
+        </value>
+      </li>
+      <!-- <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Padded_Leather"]/statBases/MaxHitPoints</xpath>
+        <value>
+          <MaxHitPoints>100</MaxHitPoints>
+        </value>
+      </li> -->
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Padded_Leather"]/statBases/Mass</xpath>
+        <value>
+          <Mass>3</Mass>
+        </value>
+      </li>
+      <!-- <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Padded_Leather"]/statBases/StuffEffectMultiplierArmor</xpath>
+        <value>
+          <StuffEffectMultiplierArmor>0.45</StuffEffectMultiplierArmor>
+        </value>
+      </li> -->
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Padded_Leather"]/statBases/StuffEffectMultiplierInsulation_Cold</xpath>
+        <value>
+          <StuffEffectMultiplierInsulation_Cold>0.6</StuffEffectMultiplierInsulation_Cold>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Padded_Leather"]/statBases/EquipDelay</xpath>
+        <value>
+          <EquipDelay>3</EquipDelay>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- Padded Chausses -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Apparel_ChaussesPadded"]/recipeMaker/skillRequirements/Crafting</xpath>
+        <value>
+          <Crafting>2</Crafting>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Apparel_ChaussesPadded"]/costStuffCount</xpath>
+        <value>
+          <costStuffCount>40</costStuffCount>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Apparel_ChaussesPadded"]/statBases/WorkToMake</xpath>
+        <value>
+          <WorkToMake>2000</WorkToMake>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Apparel_ChaussesPadded"]/statBases/MaxHitPoints</xpath>
+        <value>
+          <MaxHitPoints>150</MaxHitPoints>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Apparel_ChaussesPadded"]/statBases/Mass</xpath>
+        <value>
+          <Mass>2</Mass>
+        </value>
+      </li>
+      <!-- <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Apparel_ChaussesPadded"]/statBases/StuffEffectMultiplierArmor</xpath>
+        <value>
+          <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+        </value>
+      </li> -->
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Apparel_ChaussesPadded"]/statBases/StuffEffectMultiplierInsulation_Cold</xpath>
+        <value>
+          <StuffEffectMultiplierInsulation_Cold>0.6</StuffEffectMultiplierInsulation_Cold>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Apparel_ChaussesPadded"]/statBases/StuffEffectMultiplierInsulation_Heat</xpath>
+        <value>
+          <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Apparel_ChaussesPadded"]/statBases/EquipDelay</xpath>
+        <value>
+          <EquipDelay>2.5</EquipDelay>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- Zweihander's Hat -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ZweihandersHat"]/recipeMaker</xpath>
+        <value>
+          <skillRequirements>
+            <Crafting>6</Crafting>
+          </skillRequirements>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ZweihandersHat"]/costStuffCount</xpath>
+        <value>
+          <costStuffCount>80</costStuffCount>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ZweihandersHat"]/statBases/WorkToMake</xpath>
+        <value>
+          <WorkToMake>5000</WorkToMake>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ZweihandersHat"]/statBases</xpath>
+        <value>
+          <MaxHitPoints>100</MaxHitPoints>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ZweihandersHat"]/equippedStatOffsets/SocialImpact</xpath>
+        <value>
+          <SocialImpact>0.1</SocialImpact>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- Padded Kettle Helm -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_PaddedKettleHelmet"]/costStuffCount</xpath>
+        <value>
+          <costStuffCount>50</costStuffCount>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_PaddedKettleHelmet"]/statBases/WorkToMake</xpath>
+        <value>
+          <WorkToMake>4000</WorkToMake>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_PaddedKettleHelmet"]/statBases/MaxHitPoints</xpath>
+        <value>
+          <MaxHitPoints>120</MaxHitPoints>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_PaddedKettleHelmet"]/statBases/Mass</xpath>
+        <value>
+          <Mass>1.8</Mass>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_PaddedKettleHelmet"]/statBases/StuffEffectMultiplierArmor</xpath>
+        <value>
+          <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_PaddedKettleHelmet"]/statBases/Insulation_Cold</xpath>
+        <value>
+          <StuffEffectMultiplierInsulation_Cold>0.9</StuffEffectMultiplierInsulation_Cold>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_PaddedKettleHelmet"]/statBases/EquipDelay</xpath>
+        <value>
+          <EquipDelay>2.5</EquipDelay>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_PaddedKettleHelmet"]/equippedStatOffsets/ShootingAccuracyPawn</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_PaddedKettleHelmet"]/apparel/bodyPartGroups/li[.="FullHead"]</xpath>
+        <value>
+          <li>UpperHead</li>
+          <li>Mouth</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- Padded Flat Top Helm -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_PaddedFlatTopHelmet"]/statBases/WorkToMake</xpath>
+        <value>
+          <WorkToMake>4100</WorkToMake>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_PaddedKettleHelmet"]/statBases/MaxHitPoints</xpath>
+        <value>
+          <MaxHitPoints>120</MaxHitPoints>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_PaddedFlatTopHelmet"]/statBases/Mass</xpath>
+        <value>
+          <Mass>1.8</Mass>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_PaddedFlatTopHelmet"]/statBases/StuffEffectMultiplierArmor</xpath>
+        <value>
+          <StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_PaddedFlatTopHelmet"]/statBases/Insulation_Cold</xpath>
+        <value>
+          <StuffEffectMultiplierInsulation_Cold>0.9</StuffEffectMultiplierInsulation_Cold>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_PaddedFlatTopHelmet"]/statBases/EquipDelay</xpath>
+        <value>
+          <EquipDelay>2.5</EquipDelay>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_PaddedFlatTopHelmet"]/equippedStatOffsets/ShootingAccuracyPawn</xpath>
+        <value>
+          <ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- Padded Nasal Helm -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_PaddedNasalHelmet"]/statBases/WorkToMake</xpath>
+        <value>
+          <WorkToMake>4100</WorkToMake>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_PaddedNasalHelmet"]/statBases/MaxHitPoints</xpath>
+        <value>
+          <MaxHitPoints>120</MaxHitPoints>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_PaddedNasalHelmet"]/statBases/Mass</xpath>
+        <value>
+          <Mass>1.8</Mass>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_PaddedNasalHelmet"]/statBases/StuffEffectMultiplierArmor</xpath>
+        <value>
+          <StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_PaddedNasalHelmet"]/statBases/Insulation_Cold</xpath>
+        <value>
+          <StuffEffectMultiplierInsulation_Cold>0.9</StuffEffectMultiplierInsulation_Cold>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_PaddedNasalHelmet"]/statBases/EquipDelay</xpath>
+        <value>
+          <EquipDelay>2.5</EquipDelay>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_PaddedNasalHelmet"]/equippedStatOffsets/ShootingAccuracyPawn</xpath>
+        <value>
+          <ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- ######################################### CHAIN ARMOUR ######################################### -->
+  <!-- Splinted gloves -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Handwear_GlovesSplinted"]/recipeMaker/skillRequirements/Crafting</xpath>
+        <value>
+          <Crafting>5</Crafting>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Handwear_GlovesSplinted"]/costStuffCount</xpath>
+        <value>
+          <costStuffCount>60</costStuffCount>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Handwear_GlovesSplinted"]/statBases/WorkToMake</xpath>
+        <value>
+          <WorkToMake>1500</WorkToMake>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Handwear_GlovesSplinted"]/statBases/MaxHitPoints</xpath>
+        <value>
+          <MaxHitPoints>95</MaxHitPoints>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Handwear_GlovesSplinted"]/statBases/Mass</xpath>
+        <value>
+          <Mass>1.7</Mass>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Handwear_GlovesSplinted"]/statBases/StuffEffectMultiplierArmor</xpath>
+        <value>
+          <StuffEffectMultiplierArmor>0.35</StuffEffectMultiplierArmor>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- Chain coif -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainCoif"]/statBases/MaxHitPoints</xpath>
+        <value>
+          <MaxHitPoints>120</MaxHitPoints>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainCoif"]/statBases/WorkToMake</xpath>
+        <value>
+          <WorkToMake>9000</WorkToMake>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainCoif"]/statBases/Mass</xpath>
+        <value>
+          <Mass>1.75</Mass>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainCoif"]/costStuffCount</xpath>
+        <value>
+          <costStuffCount>60</costStuffCount>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainCoif"]/statBases/StuffEffectMultiplierArmor</xpath>
+        <value>
+          <StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainCoif"]/statBases/EquipDelay</xpath>
+        <value>
+          <EquipDelay>2.5</EquipDelay>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainCoifClosed"]/statBases/MaxHitPoints</xpath>
+        <value>
+          <MaxHitPoints>120</MaxHitPoints>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainCoifClosed"]/statBases/WorkToMake</xpath>
+        <value>
+          <WorkToMake>9000</WorkToMake>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainCoifClosed"]/statBases/Mass</xpath>
+        <value>
+          <Mass>1.75</Mass>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainCoifClosed"]/statBases/StuffEffectMultiplierArmor</xpath>
+        <value>
+          <StuffEffectMultiplierArmor>0.26</StuffEffectMultiplierArmor>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainCoifClosed"]/statBases/EquipDelay</xpath>
+        <value>
+          <EquipDelay>2.5</EquipDelay>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainCoifClosed"]/apparel/bodyPartGroups/li[.="FullHead"]</xpath>
+        <value>
+          <li>UpperHead</li>
+          <li>Mouth</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainCoifClosed"]</xpath>
+        <value>
+          <equippedStatOffsets>
+            <ShootingAccuracyPawn>-0.1</ShootingAccuracyPawn>
+          </equippedStatOffsets>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- Full chain coif -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainCoifFull"]/statBases/MaxHitPoints</xpath>
+        <value>
+          <MaxHitPoints>120</MaxHitPoints>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainCoifFull"]/statBases/WorkToMake</xpath>
+        <value>
+          <WorkToMake>9500</WorkToMake>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainCoifFull"]/statBases/Mass</xpath>
+        <value>
+          <Mass>1.85</Mass>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainCoifFull"]/costStuffCount</xpath>
+        <value>
+          <costStuffCount>65</costStuffCount>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainCoifFull"]/statBases/StuffEffectMultiplierArmor</xpath>
+        <value>
+          <StuffEffectMultiplierArmor>0.28</StuffEffectMultiplierArmor>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainCoifFull"]/statBases/EquipDelay</xpath>
+        <value>
+          <EquipDelay>2.5</EquipDelay>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainCoifFull"]</xpath>
+        <value>
+          <equippedStatOffsets>
+            <ShootingAccuracyPawn>-0.2</ShootingAccuracyPawn>
+          </equippedStatOffsets>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainCoifFull"]/recipeMaker/skillRequirements/Crafting</xpath>
+        <value>
+          <Crafting>4</Crafting>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- Chain kettle helm -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainKettleHelmet"]/statBases/MaxHitPoints</xpath>
+        <value>
+          <MaxHitPoints>125</MaxHitPoints>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainKettleHelmet"]/statBases/WorkToMake</xpath>
+        <value>
+          <WorkToMake>10000</WorkToMake>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainKettleHelmet"]/statBases/Mass</xpath>
+        <value>
+          <Mass>2</Mass>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainKettleHelmet"]/costStuffCount</xpath>
+        <value>
+          <costStuffCount>65</costStuffCount>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainKettleHelmet"]/statBases/StuffEffectMultiplierArmor</xpath>
+        <value>
+          <StuffEffectMultiplierArmor>0.30</StuffEffectMultiplierArmor>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainKettleHelmet"]/statBases/EquipDelay</xpath>
+        <value>
+          <EquipDelay>2.5</EquipDelay>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainKettleHelmet"]/equippedStatOffsets/ShootingAccuracyPawn</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainKettleHelmet"]/apparel/bodyPartGroups/li[.="FullHead"]</xpath>
+        <value>
+          <li>UpperHead</li>
+          <li>Mouth</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- Chain flat-top -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_Chain_FlatTopHelmet"]/statBases/MaxHitPoints</xpath>
+        <value>
+          <MaxHitPoints>125</MaxHitPoints>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_Chain_FlatTopHelmet"]/statBases/WorkToMake</xpath>
+        <value>
+          <WorkToMake>10250</WorkToMake>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_Chain_FlatTopHelmet"]/statBases/Mass</xpath>
+        <value>
+          <Mass>2.1</Mass>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_Chain_FlatTopHelmet"]/costStuffCount</xpath>
+        <value>
+          <costStuffCount>75</costStuffCount>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_Chain_FlatTopHelmet"]/statBases/StuffEffectMultiplierArmor</xpath>
+        <value>
+          <StuffEffectMultiplierArmor>0.32</StuffEffectMultiplierArmor>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_Chain_FlatTopHelmet"]/statBases/EquipDelay</xpath>
+        <value>
+          <EquipDelay>2.5</EquipDelay>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_Chain_FlatTopHelmet"]/equippedStatOffsets/ShootingAccuracyPawn</xpath>
+        <value>
+          <ShootingAccuracyPawn>-0.2</ShootingAccuracyPawn>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ClosedChain_FlatTopHelmet"]/statBases/MaxHitPoints</xpath>
+        <value>
+          <MaxHitPoints>125</MaxHitPoints>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ClosedChain_FlatTopHelmet"]/statBases/WorkToMake</xpath>
+        <value>
+          <WorkToMake>10250</WorkToMake>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ClosedChain_FlatTopHelmet"]/statBases/Mass</xpath>
+        <value>
+          <Mass>2.1</Mass>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ClosedChain_FlatTopHelmet"]/costStuffCount</xpath>
+        <value>
+          <costStuffCount>75</costStuffCount>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ClosedChain_FlatTopHelmet"]/statBases/StuffEffectMultiplierArmor</xpath>
+        <value>
+          <StuffEffectMultiplierArmor>0.33</StuffEffectMultiplierArmor>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ClosedChain_FlatTopHelmet"]/statBases/EquipDelay</xpath>
+        <value>
+          <EquipDelay>2.5</EquipDelay>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ClosedChain_FlatTopHelmet"]/equippedStatOffsets/ShootingAccuracyPawn</xpath>
+        <value>
+          <ShootingAccuracyPawn>-0.3</ShootingAccuracyPawn>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- Chain nasal Helm -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainNasalHelmet"]/statBases/MaxHitPoints</xpath>
+        <value>
+          <MaxHitPoints>125</MaxHitPoints>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainNasalHelmet"]/statBases/WorkToMake</xpath>
+        <value>
+          <WorkToMake>10250</WorkToMake>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainNasalHelmet"]/statBases/Mass</xpath>
+        <value>
+          <Mass>2.1</Mass>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainNasalHelmet"]/costStuffCount</xpath>
+        <value>
+          <costStuffCount>70</costStuffCount>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainNasalHelmet"]/statBases/StuffEffectMultiplierArmor</xpath>
+        <value>
+          <StuffEffectMultiplierArmor>0.32</StuffEffectMultiplierArmor>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainNasalHelmet"]/statBases/EquipDelay</xpath>
+        <value>
+          <EquipDelay>2.5</EquipDelay>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainNasalHelmet"]/equippedStatOffsets/ShootingAccuracyPawn</xpath>
+        <value>
+          <ShootingAccuracyPawn>-0.2</ShootingAccuracyPawn>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- Chain nasal helm (bandana) -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainNasalRedHelmet"]/statBases/MaxHitPoints</xpath>
+        <value>
+          <MaxHitPoints>125</MaxHitPoints>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainNasalRedHelmet"]/statBases/WorkToMake</xpath>
+        <value>
+          <WorkToMake>10250</WorkToMake>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainNasalRedHelmet"]/statBases/Mass</xpath>
+        <value>
+          <Mass>2.1</Mass>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainNasalRedHelmet"]/costStuffCount</xpath>
+        <value>
+          <costStuffCount>70</costStuffCount>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainNasalRedHelmet"]/statBases/StuffEffectMultiplierArmor</xpath>
+        <value>
+          <StuffEffectMultiplierArmor>0.32</StuffEffectMultiplierArmor>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainNasalRedHelmet"]/statBases/EquipDelay</xpath>
+        <value>
+          <EquipDelay>2.5</EquipDelay>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainNasalRedHelmet"]/equippedStatOffsets/ShootingAccuracyPawn</xpath>
+        <value>
+          <ShootingAccuracyPawn>-0.2</ShootingAccuracyPawn>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainNasalRedHelmet"]</xpath>
+        <value>
+          <costList>
+            <Cloth>5</Cloth>
+          </costList>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- Chainveil helm -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainClosedFlatTopHelmet"]/statBases/MaxHitPoints</xpath>
+        <value>
+          <MaxHitPoints>135</MaxHitPoints>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainClosedFlatTopHelmet"]/statBases/WorkToMake</xpath>
+        <value>
+          <WorkToMake>11000</WorkToMake>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainClosedFlatTopHelmet"]/statBases/Mass</xpath>
+        <value>
+          <Mass>2.5</Mass>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainClosedFlatTopHelmet"]/costStuffCount</xpath>
+        <value>
+          <costStuffCount>80</costStuffCount>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainClosedFlatTopHelmet"]/statBases/StuffEffectMultiplierArmor</xpath>
+        <value>
+          <StuffEffectMultiplierArmor>0.35</StuffEffectMultiplierArmor>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainClosedFlatTopHelmet"]/statBases/EquipDelay</xpath>
+        <value>
+          <EquipDelay>2.5</EquipDelay>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainClosedFlatTopHelmet"]/equippedStatOffsets/ShootingAccuracyPawn</xpath>
+        <value>
+          <ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainCoifFull"]/recipeMaker/skillRequirements/Crafting</xpath>
+        <value>
+          <Crafting>8</Crafting>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

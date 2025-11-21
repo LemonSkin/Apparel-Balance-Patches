@@ -11,8 +11,6 @@
     <li>DankPyon.Medieval.Overhaul</li>
     <li>VanillaExpanded.VAPPE</li>
     <li>OskarPotocki.VFE.Medieval2</li>
-    <li>ferny.progressioncore</li>
-    <li>ferny.progressionproduction</li>
   </loadAfter>
   <!-- <modDependencies>
     <li>

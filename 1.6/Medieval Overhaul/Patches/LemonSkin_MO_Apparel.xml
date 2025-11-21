@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <!-- Balance -->
-  <Operation Class="PatchOperationRemove">
-    <xpath>Defs/ThingDef[defName="DankPyon_Handwear_GlovesLeather"]/equippedStatOffsets/WorkSpeedGlobal</xpath>
-  </Operation>
   <!-- Naming consistency -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Headgear_RedBandana"]/label</xpath>
@@ -33,6 +29,66 @@
     <xpath>Defs/ThingDef[defName="DankPyon_Footwear_BootsLeather"]/label</xpath>
     <value>
       <label>jackboots</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_PaddedFlatTopHelmet"]/label</xpath>
+    <value>
+      <label>padded flat-top helm</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_PaddedKettleHelmet"]/label</xpath>
+    <value>
+      <label>padded kettle helm</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainClosedFlatTopHelmet"]/label</xpath>
+    <value>
+      <label>chainveil helm</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_Chain_FlatTopHelmet"]/label</xpath>
+    <value>
+      <label>chain flat-top helm</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_OpenBascinet"]/label</xpath>
+    <value>
+      <label>open bascinet</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ZweihanderHelm"]/label</xpath>
+    <value>
+      <label>zweihander's helm</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Adorned_FlatTop"]/label</xpath>
+    <value>
+      <label>chainveil helm (adorned)</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Adorned_HeavyMailCoif"]/label</xpath>
+    <value>
+      <label>chain coif (adorned)</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_HounskullHelmet"]/label</xpath>
+    <value>
+      <label>hounskull helm</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_HeavyBarbrute"]/label</xpath>
+    <value>
+      <label>heavy barbute</label>
     </value>
   </Operation>
   <!-- Rustic clothing changes -->

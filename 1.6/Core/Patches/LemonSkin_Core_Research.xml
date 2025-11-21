@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ComplexClothing: Move, adjust tech level, and relink -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="ComplexClothing"]/researchViewX</xpath>
+        <value>
+          <researchViewX>1.0</researchViewX>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="ComplexClothing"]/techLevel</xpath>
+        <value>
+          <techLevel>Industrial</techLevel>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ResearchProjectDef[defName="ComplexClothing"]</xpath>
+        <value>
+          <prerequisites>
+            <li>LemonSkin_RusticClothing</li>
+          </prerequisites>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- PlateArmor: Move, remove ComplexClothing as prereq, add RusticClothing as hidden prereq -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ResearchProjectDef[defName="PlateArmor"]/prerequisites/li[.="ComplexClothing"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ResearchProjectDef[defName="PlateArmor"]/prerequisites/li[.="ComplexClothing"]</xpath>
+      <value>
+        <li>LemonSkin_RusticClothing</li>
+      </value>
+    </match>
+  </Operation>
+  <!-- <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="PlateArmor"]/researchViewY</xpath>
+        <value>
+          <researchViewY>2.80</researchViewY>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ResearchProjectDef[defName="PlateArmor"]/prerequisites/li[.="ComplexClothing"]</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ResearchProjectDef[defName="PlateArmor"]</xpath>
+        <value>
+          <hiddenPrerequisites>
+            <li>LemonSkin_RusticClothing</li>
+          </hiddenPrerequisites>
+        </value>
+      </li>
+    </operations>
+  </Operation> -->
+  <!-- FlakArmor: Replace PlateArmor for ComplexClothing prerequisite -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="FlakArmor"]/hiddenPrerequisites/li[.="PlateArmor"]</xpath>
+    <value>
+      <li>ComplexClothing</li>
+    </value>
+  </Operation>
+  <!-- Add hand tailoring bench to RusticClothing -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="HandTailoringBench"]/researchPrerequisites/li[.="ComplexClothing"]</xpath>
+    <value>
+      <li>LemonSkin_RusticClothing</li>
+    </value>
+  </Operation>
+</Patch>
