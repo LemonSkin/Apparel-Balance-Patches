@@ -28,13 +28,7 @@
         <li Class="PatchOperationReplace">
           <xpath>Defs/ThingDef[defName="VAE_Apparel_Trousers"]/label</xpath>
           <value>
-            <label>formal trousers</label>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <xpath>Defs/ThingDef[defName="VAE_Apparel_SuitJacket"]/label</xpath>
-          <value>
-            <label>formal jacket</label>
+            <label>suit trousers</label>
           </value>
         </li>
       </operations>

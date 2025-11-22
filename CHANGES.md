@@ -90,7 +90,9 @@ Plate armours have been rebalanced, but the various helmets are mostly equivalen
 
 Gilded and Adorned counterparts provide equivalent stats but also include a social impact buff (dependent on armour tier) and take slightly longer to make. Adorned counterparts also have a slight buff to cold insulation.
 
-Lindwurm armour is rare and quite difficult to make, however it is very protective, insulating and light.
+Lindwurm armour is rare and quite difficult to make, however it is very protective, insulating and light. It offers the protection of full plate armour, but the weight and maneuverability of light plate armor.
+
+Shields have been balanced and now require more research. Round shield is unlocked with Protective clothing, Heater shield with Chain armour, and Kite shield with Plate armor.
 
 ## Medieval Overhaul + Biotech
 * Nerfed MO Quiver so that Biotech’s Heavy bandolier is a direct upgrade
@@ -105,15 +107,14 @@ Lindwurm armour is rare and quite difficult to make, however it is very protecti
     * Zweihander's helm
     * Zweihander's cuirass
     * Zweihander's cuirass (puffy)
-* TODO: Added Royal apparel requirement to the following:
-    * Gilded full Plate
+* Added Royal apparel requirement to the following:
+    * Gilded full plate
     * Gilded arnet
 
 ## Vanilla Factions Expanded - Medieval 2
 * Added new research: Leather armor (500)
     * Rustic clothing > Leather armor
     * New research appears in Vanilla Expanded tab
-    * Leather armor and Heavy leather armor allowed to be crafted at Tailor benches
     * TODO: Maybe Heavy leather armor should also require smithing research?
 * Moved the following to Rustic clothing
     * Padded helmet
@@ -142,23 +143,11 @@ Lindwurm armour is rare and quite difficult to make, however it is very protecti
 
 ## TODO: Vanilla Factions Expanded - Medieval 2 + Medieval Overhaul
 * Integrated research chain
-    * Rustic clothing > Protective clothing > Leather armor > Chainmail armor
-* Resolved the following overlaps:
-    * Removed MO Heater shield in favor of VE Heater shield. House-specifc Heater shields remain and have identical stats to VE Heater shield
-    * Removed MO Padded armor and Padded chausses in favor of VE Padded armor
-* Moved MO Kite shield to Plate armor and rebalanced stats to be in line with VE stats. All stats are for Steel:
-    * Increased material cost to 120
-    * Increased Sharp armor from 39.6% to 85%
-    * Increased Blunt armor to 19.8% to 65%
-    * Increased Heat armor to from 26.4% to 95%
-    * Melee dodge chance nerfed from -5.0 to -6.0
-    * Added melee hit chance -2.0
-    * Added shooting accuracy -2.0
-* Moved MO Light lamellar to Leather armor and increased material cost to 120
-* Moved VE Padded armor to Protective clothing
-* Moved VE Padded helmet to Protective clothing
-* Moved VE Heavy leather helmet & armor from Smithing to Leather armor
-* Moved VE Leather helmet & armor to Plate Armor to Leather armor
+    * Rustic clothing > Protective clothing > Leather armor, Chainmail armor
+    * VE Leather Armor is less protective than Hauberk but has no speed malus and requires Leather armor research
+    * VE Heavy leather armor is less protective than Breast plate but has smaller speed penalty and requires Leather armor research
+* Renamed VE Padded armor to Cloth armor to avoid overlap
+* TODO: Shields
 
 ## TODO: Vanilla Apparel Expanded
 * Moved the following to Rustic clothing:
@@ -188,7 +177,6 @@ Lindwurm armour is rare and quite difficult to make, however it is very protecti
 * Renamed VE Gloves to Mittens to differentiate from MO Gloves
 * Rename MO Boots to Jackboots to differentiate from VE Boots. Also slightly increase material cost
 * Rename VE Trousers to Suit trousers to distinguish from MO Trousers
-* Add slight social impact buff to MO Trousers
 
 ## TODO: Vanilla Armour Expanded
 * Leather tanning research now required Rustic clothing prerequisite
@@ -196,6 +184,9 @@ Lindwurm armour is rare and quite difficult to make, however it is very protecti
 ## TODO: Vanilla Armour Expanded + Medieval Overhaul
 * Chainmail moved to MO Chainmail research
 * Figure out overlap for Gambeson and Quilted vest
+* MO Breast Plate is slightly worse than VE Light Plate Armor, but has better movespeed
+* MO Brigandine has slightly more armour than vanilla Plate Armo, but has a dodge malus
+* Full Plate (and variants) have slightly more armor than VE Heavy Plate Armor
 
 # Bug Fixes
 * Fixed name capitalisations for a bunch of items in both VE and MO

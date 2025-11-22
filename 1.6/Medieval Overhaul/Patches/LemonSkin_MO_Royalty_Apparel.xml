@@ -34,6 +34,24 @@
             </researchPrerequisites>
           </value>
         </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ArmetGilded"]/recipeMaker/researchPrerequisite</xpath>
+          <value>
+            <researchPrerequisites>
+              <li>PlateArmor</li>
+              <li>RoyalApparel</li>
+            </researchPrerequisites>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="DankPyon_Apparel_FullPlateGilded"]/recipeMaker/researchPrerequisite</xpath>
+          <value>
+            <researchPrerequisites>
+              <li>PlateArmor</li>
+              <li>RoyalApparel</li>
+            </researchPrerequisites>
+          </value>
+        </li>
       </operations>
     </match>
   </Operation>

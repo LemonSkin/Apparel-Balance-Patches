@@ -26,12 +26,6 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Footwear_BootsLeather"]/label</xpath>
-    <value>
-      <label>jackboots</label>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Headgear_PaddedFlatTopHelmet"]/label</xpath>
     <value>
       <label>padded flat-top helm</label>

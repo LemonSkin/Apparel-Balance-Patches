@@ -9,28 +9,28 @@
           <researchPrerequisite>LemonSkin_LeatherArmour</researchPrerequisite>
         </value>
       </li>
-      <li Class="PatchOperationAdd">
+      <!-- <li Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="VFEM2_Apparel_LeatherArmor"]/recipeMaker/recipeUsers</xpath>
         <order>Append</order>
         <value>
           <li>ElectricTailoringBench</li>
           <li>HandTailoringBench</li>
         </value>
-      </li>
+      </li> -->
       <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="VFEM2_Apparel_LeatherHelmet"]/recipeMaker/researchPrerequisite</xpath>
         <value>
           <researchPrerequisite>LemonSkin_LeatherArmour</researchPrerequisite>
         </value>
       </li>
-      <li Class="PatchOperationAdd">
+      <!-- <li Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="VFEM2_Apparel_LeatherHelmet"]/recipeMaker/recipeUsers</xpath>
         <order>Append</order>
         <value>
           <li>ElectricTailoringBench</li>
           <li>HandTailoringBench</li>
         </value>
-      </li>
+      </li> -->
     </operations>
   </Operation>
   <!-- Patch heavy leather armour -->
@@ -42,28 +42,28 @@
           <researchPrerequisite>LemonSkin_LeatherArmour</researchPrerequisite>
         </value>
       </li>
-      <li Class="PatchOperationAdd">
+      <!-- <li Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="VFEM2_Apparel_HeavyLeatherArmor"]/recipeMaker/recipeUsers</xpath>
         <order>Append</order>
         <value>
           <li>ElectricTailoringBench</li>
           <li>HandTailoringBench</li>
         </value>
-      </li>
+      </li> -->
       <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="VFEM2_Apparel_HeavyLeatherHelmet"]/recipeMaker/researchPrerequisite</xpath>
         <value>
           <researchPrerequisite>LemonSkin_LeatherArmour</researchPrerequisite>
         </value>
       </li>
-      <li Class="PatchOperationAdd">
+      <!-- <li Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="VFEM2_Apparel_HeavyLeatherHelmet"]/recipeMaker/recipeUsers</xpath>
         <order>Append</order>
         <value>
           <li>ElectricTailoringBench</li>
           <li>HandTailoringBench</li>
         </value>
-      </li>
+      </li> -->
     </operations>
   </Operation>
   <!-- Patch remaining clothes -->
