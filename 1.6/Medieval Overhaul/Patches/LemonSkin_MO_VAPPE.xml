@@ -19,19 +19,19 @@
           </value>
         </li>
         <li Class="PatchOperationReplace">
-          <xpath>Defs/ThingDef[defName="DankPyon_Footwear_BootsLeather"]statBases/MaxHitPoints</xpath>
+          <xpath>Defs/ThingDef[defName="DankPyon_Footwear_BootsLeather"]/statBases/MaxHitPoints</xpath>
           <value>
             <MaxHitPoints>100</MaxHitPoints>
           </value>
         </li>
         <li Class="PatchOperationReplace">
-          <xpath>Defs/ThingDef[defName="DankPyon_Footwear_BootsLeather"]statBases/EquipDelay</xpath>
+          <xpath>Defs/ThingDef[defName="DankPyon_Footwear_BootsLeather"]/statBases/EquipDelay</xpath>
           <value>
             <EquipDelay>2</EquipDelay>
           </value>
         </li>
         <li Class="PatchOperationReplace">
-          <xpath>Defs/ThingDef[defName="DankPyon_Handwear_GlovesLeather"]statBases/MaxHitPoints</xpath>
+          <xpath>Defs/ThingDef[defName="DankPyon_Handwear_GlovesLeather"]/statBases/MaxHitPoints</xpath>
           <value>
             <MaxHitPoints>100</MaxHitPoints>
           </value>

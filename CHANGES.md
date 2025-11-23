@@ -181,8 +181,9 @@ Shields have been balanced and now require more research. Round shield is unlock
 ## TODO: Vanilla Apparel Expanded + Biotech
 * Rename Biotech cape to Shoulder cape to differentiate from VE Cape
 
-## TODO: Vanilla Apparel Expanded + Anomaly
-* Combined effects of VE and Anomaly Lab coat and nerf slightly
+## Vanilla Apparel Expanded + Anomaly
+* VE lab coat renamed to Chemist's lab coat, research speed nerfed to 5%
+* TODO: Rebalance stats
 
 ## TODO: Vanilla Apparel Expanded + Medieval Overhaul
 * Renamed VE Trousers to Suit trousers to distinguish from MO Trousers
