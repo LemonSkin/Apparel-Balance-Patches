@@ -12,6 +12,30 @@
             <label>jackboots</label>
           </value>
         </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="DankPyon_Footwear_BootsLeather"]/costStuffCount</xpath>
+          <value>
+            <costStuffCount>35</costStuffCount>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="DankPyon_Footwear_BootsLeather"]statBases/MaxHitPoints</xpath>
+          <value>
+            <MaxHitPoints>100</MaxHitPoints>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="DankPyon_Footwear_BootsLeather"]statBases/EquipDelay</xpath>
+          <value>
+            <EquipDelay>2</EquipDelay>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="DankPyon_Handwear_GlovesLeather"]statBases/MaxHitPoints</xpath>
+          <value>
+            <MaxHitPoints>100</MaxHitPoints>
+          </value>
+        </li>
       </operations>
     </match>
   </Operation>

@@ -7,24 +7,17 @@
       <Crafting>9</Crafting>
     </value>
   </Operation>
-  <!-- GENERAL -->
+  <!-- ######################################### SHIELDS ######################################### -->
+  <!-- Round shield -->
+  <!-- Heater shield -->
+  <!-- Kite shield -->
+  <!-- ######################################### ARMOUR ######################################### -->
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[@Name="DankPyon_ArmorHelmetMakeableBase"]/apparel</xpath>
     <value>
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
     </value>
   </Operation>
-  <!-- ######################################### CLOTHES ######################################### -->
-  <!-- Gloves -->
-  <Operation Class="PatchOperationRemove">
-    <xpath>Defs/ThingDef[defName="DankPyon_Handwear_GlovesLeather"]/equippedStatOffsets/WorkSpeedGlobal</xpath>
-  </Operation>
-  <!-- Boots -->
-  <!-- ######################################### SHIELDS ######################################### -->
-  <!-- Round shield -->
-  <!-- Heater shield -->
-  <!-- Kite shield -->
-  <!-- ######################################### ARMOUR ######################################### -->
   <!-- ######################################### PROTECTIVE CLOTHING ######################################### -->
   <!-- Light lamellar -->
   <Operation Class="PatchOperationSequence">
@@ -2139,11 +2132,13 @@
         </value>
       </li>
       <li Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="DankPyon_Adorned_GreatHelm"]/equippedStatOffsets/ShootingAccuracyPawn</xpath>
+        <xpath>Defs/ThingDef[defName="DankPyon_Adorned_GreatHelm"]/equippedStatOffsets</xpath>
         <value>
-          <ShootingAccuracyPawn>-8.0</ShootingAccuracyPawn>
-          <MeleeHitChance>-2</MeleeHitChance>
-          <SocialImpact>0.1</SocialImpact>
+          <equippedStatOffsets>
+            <ShootingAccuracyPawn>-8.0</ShootingAccuracyPawn>
+            <MeleeHitChance>-2</MeleeHitChance>
+            <SocialImpact>0.1</SocialImpact>
+          </equippedStatOffsets>
         </value>
       </li>
     </operations>
@@ -2424,11 +2419,13 @@
         </value>
       </li>
       <li Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ArmetGilded"]/equippedStatOffsets/ShootingAccuracyPawn</xpath>
+        <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ArmetGilded"]/equippedStatOffsets</xpath>
         <value>
-          <ShootingAccuracyPawn>-8.0</ShootingAccuracyPawn>
-          <MeleeHitChance>-2</MeleeHitChance>
-          <SocialImpact>0.2</SocialImpact>
+          <equippedStatOffsets>
+            <ShootingAccuracyPawn>-8.0</ShootingAccuracyPawn>
+            <MeleeHitChance>-2</MeleeHitChance>
+            <SocialImpact>0.2</SocialImpact>
+          </equippedStatOffsets>
         </value>
       </li>
     </operations>

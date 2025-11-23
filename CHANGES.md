@@ -1,5 +1,4 @@
-
-# Progression: Apparel & Armour (Title TBC)
+# Progression: Apparel & Armour
 It always bother me when I install mods like Medieval Overhaul or one of the old-timey Vanilla Factions Expanded that all of the medieval clothing appears in the same research projects as more modern clothing. This mod aims to correct that.
 
 On its own, this mod doesn’t do a whole lot - it creates a new research project to unlock the hand tailor bench. It is intended that this mod be used with other mods that add medieval apparel and armour to the game.
@@ -64,6 +63,7 @@ TBA
     * Red bandana
     * Trousers
     * Vest
+    * Hose
 * New research Rugs:
     * Textile spinning > Rugs, Silk
     * Moved cloth and leather rugs to Rugs research
@@ -75,6 +75,9 @@ TBA
 * Fixed assorted naming capitalisations and consistencies
 ### Stat Rebalances
 Clothes and armour costs and stats are pretty out of whack with the vanilla game. I aim to make these more aligned to vanilla values to provide a proper sense of progression.
+Pants are now closer to Vanilla Pants stats but take slightly longer to make and user more materials.
+The Padded surcoat can now be made out of leather. It has stats equivalent to the Vanilla T-shirt, but takes longer to make, requires more materials and weighs more.
+The Gambeson can now be made out of leather. It has increased cold protection, increased armour and weighs more. In exchange, it takes quite a bit longer to make and uses more materials.
 
 Generally, fewer clothes count for nudity - hats, helmets, gloves, boots, etc no longer count as clothing.
 
@@ -127,7 +130,7 @@ Shields have been balanced and now require more research. Round shield is unlock
 * Moved the following to Rustic clothing
     * Padded helmet
     * Padded armor
-    * Cap
+    * Cap (nerfed, provides less armour)
     * Mantle
     * Jester hat
     * Jester outfit
@@ -136,7 +139,7 @@ Shields have been balanced and now require more research. Round shield is unlock
     * King’s crown
     * King’s robe
     * Plague mask
-    * Chaperon
+    * Chaperon (nerfed, provides less armour)
 * Round shield and Heater shield stay in Smithing and Plate armor respectively
 
 ## Vanilla Factions Expanded - Medieval 2 + Royalty
@@ -160,22 +163,17 @@ Shields have been balanced and now require more research. Round shield is unlock
 * Rebalanced Heavy leather armor and helmet
 * Increased level requirement for Heavy Plate Armor and Helmet to 10
 * TODO: Shields
-* TODO: Figure out Cap MO overlap
 
 ## TODO: Vanilla Apparel Expanded
 * Moved the following to Rustic clothing:
     * Tunic
     * Blouse
     * Apron
-    * Cape (Removed from 1.6?)
-    * Trapper hat (Removed from 1.6?)
-    * Summer hat (Removed from 1.6?)
     * Gloves
 * Changed tech level of the following:
     * Boots: Medieval > Industrial (OP stats for medieval tech level)
     * Shoes: Medieval > Industrial (OP stats for medieval tech level)
-* TODO: Nerfs
-    * Apron is OP for tech level and materials required
+* The Apron has been nerfed and provides a 5% workspeed buff. It now has hitpoints and can take damage.
 
 ## TODO: Vanilla Apparel Expanded + Royalty
 * Rename Royalty cape to Shoulder cape to differentiate from VE Cape
@@ -184,17 +182,17 @@ Shields have been balanced and now require more research. Round shield is unlock
 * Rename Biotech cape to Shoulder cape to differentiate from VE Cape
 
 ## TODO: Vanilla Apparel Expanded + Anomaly
-* Combine effects of VE and Anomaly Lab coat and nerf slightly to compensate
+* Combined effects of VE and Anomaly Lab coat and nerf slightly
 
 ## TODO: Vanilla Apparel Expanded + Medieval Overhaul
-* Renamed VE Gloves to Mittens to differentiate from MO Gloves
-* Rename MO Boots to Jackboots to differentiate from VE Boots. Also slightly increase material cost
-* Rename VE Trousers to Suit trousers to distinguish from MO Trousers
+* Renamed VE Trousers to Suit trousers to distinguish from MO Trousers
+* VE Gloves renamed to mittens and slightly nerfed
+* MO Boots renamed to Jackboots, slightly nerfed
 
 ## TODO: Vanilla Armour Expanded
-* Leather tanning research now required Rustic clothing prerequisite
+* Leather tanning research now requires Rustic clothing prerequisite
 
-## TODO: Vanilla Armour Expanded + Medieval Overhaul
+## Vanilla Armour Expanded + Medieval Overhaul
 * Rebalanced the following:
     * Light Plate Armor
     * Chainmail, also moved to MO Chain armor research and renamed Light Hauberk
@@ -202,7 +200,9 @@ Shields have been balanced and now require more research. Round shield is unlock
     * Plate Shoulderpads, MO Breast plate and Brigandine no longer provide shoulder coverage and have their movement speed malus reduced to compensate
 * Removed VE Chestplate in favour of MO Breast Plate
 * Removed Plate Gloves and Plate Boots in favour of MO
-* TODO: Figure out overlap for Gambeson and Quilted vest
+* VE Quilted Vest removed in favour of MO Vest, slightly nerfed and requires MO Leather tanning research
+* VE Gambeson removed in favour of MO Gambeson, slightly nerfed and requires MO Leather tanning research
+* VE Leather Tanning research removed
 
 # Bug Fixes
 * Fixed name capitalisations for a bunch of items in both VE and MO

@@ -131,6 +131,14 @@
                   <replace>VAE_Footwear_PlateBoots</replace>
                   <with>DankPyon_Footwear_BootsPlate</with>
                 </li>
+                <li>
+                  <replace>VAE_Apparel_QuiltedVest</replace>
+                  <with>DankPyon_Apparel_Leather_Tunic</with>
+                </li>
+                <li>
+                  <replace>VAE_Apparel_Gambeson</replace>
+                  <with>Dankpyon_Apparel_Gambeson</with>
+                </li>
               </replacers>
             </ReplaceLib.ReplacerDef>
           </value>

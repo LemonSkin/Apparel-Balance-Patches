@@ -52,15 +52,27 @@
           </value>
         </li>
         <li Class="PatchOperationReplace">
-          <xpath>Defs/ThingDef[defName="VFEM2_Apparel_PaddedArmor"]/statBases/WorkToMake</xpath>
-          <value>
-            <WorkToMake>1800</WorkToMake>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
           <xpath>Defs/ThingDef[defName="VFEM2_Apparel_PaddedArmor"]/label</xpath>
           <value>
             <label>light padded armor</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VFEM2_Apparel_Cap"]/statBases/StuffEffectMultiplierArmor</xpath>
+          <value>
+            <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VFEM2_Apparel_Chaperon"]/statBases/StuffEffectMultiplierArmor</xpath>
+          <value>
+            <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VFEM2_Apparel_Mantle"]/statBases/StuffEffectMultiplierArmor</xpath>
+          <value>
+            <StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
           </value>
         </li>
       </operations>

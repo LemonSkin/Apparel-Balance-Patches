@@ -16,14 +16,8 @@
   <description>Tweaks research requirements and de-duplicates apparel and armour from various mods</description>
   <loadAfter>
     <li>DankPyon.Medieval.Overhaul</li>
-    <li>VanillaExpanded.VAPPE</li>
     <li>OskarPotocki.VFE.Medieval2</li>
+    <li>VanillaExpanded.VAPPE</li>
+    <li>VanillaExpanded.VARME</li>
   </loadAfter>
-  <!-- <modDependencies>
-    <li>
-      <packageId>ferny.ReplaceLib</packageId>
-      <displayName>ReplaceLib</displayName>
-      <steamWorkshopUrl>steam://url/CommunityFilePage/2329011599</steamWorkshopUrl>
-    </li>
-  </modDependencies> -->
 </ModMetaData>

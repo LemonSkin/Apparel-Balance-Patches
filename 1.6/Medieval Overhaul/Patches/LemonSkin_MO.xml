@@ -143,7 +143,10 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Leather_Tunic"]/recipeMaker/researchPrerequisite</xpath>
     <value>
-      <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
+      <researchPrerequisites>
+        <li>LemonSkin_RusticClothing</li>
+        <li>DankPyon_LeatherTanning</li>
+      </researchPrerequisites>
     </value>
   </Operation>
 </Patch>
