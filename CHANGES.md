@@ -11,15 +11,19 @@ On its own, this mod doesn’t do a whole lot - it creates a new research projec
     * Hood
     * Cape (if Royalty or Biotech installed)
 * Flak armor requires Machining and Complex clothing - Modern combat armour doesn't have much in common with medieval plate armour
-* Plate armor requires Rustic clothing and Smithing
-* Steel simple helmet now requires Complex clothing
+* The Plate armor research project now requires Rustic clothing instead of Complex clothing
+* TODO: Steel simple helmet now requires Complex clothing
 
 # Integrations
+Generally, apparel and armour items have had their research requirements adjusted to make sense and to provide a deeper sense of progression. Items have also been rebalanced to give players more reasons to use them and to make fewer items clear winners in any given category.
+
+Nudity settings have been tweaked where appropriate, mostly for headgear. Hats, helmets and masks that cover the majority of a pawn's head will count as clothing, while others do not.
+
 ## Royalty
 * Modified research chains:
     * Rustic clothing > Noble apparel > Royal apparel
 * Beret, Corset, Formal shirt, Formal vest, Ladies hat, and Top hat require Complex clothing + Noble apparel
-* Royal apparel only requires Nobel apparel research
+* Royal apparel only requires Nobel apparel research (Rustic clothing is implicitly unlocked)
 * Crown and Cornet also require Smithing
 
 ## Ideology
@@ -64,6 +68,7 @@ TBA
     * Trousers
     * Vest
     * Hose
+    * Sackcloth
 * New research Rugs:
     * Textile spinning > Rugs, Silk
     * Moved cloth and leather rugs to Rugs research
@@ -71,6 +76,15 @@ TBA
     * Royal rugs moved to Royal architecture research and requires Rugs research
     * Silk rugs moved to Silk research and requires Rugs research
 * Protective clothing now requires Rustic tailoring as a prerequisite
+* TODO: Fix bone plating description and coverage, add incoming damage buff to offset
+* TODO: Additional fur padding - nerf incoming damage multiplier
+* TODO: Changed nudity for the following:
+    * Arming cap and coif (No)
+    * Red bandana (No)
+    * Boots & Gloves (No)
+    * Padded helms, Zweihander's hat (No)
+    * Splinted boots, Splinted gloves, Zweihander's helm (No)
+
 ### Fixes
 * Fixed assorted naming capitalisations and consistencies
 ### Stat Rebalances
@@ -118,6 +132,7 @@ Shields have been balanced and now require more research. Round shield is unlock
     * Zweihander's helm
     * Zweihander's cuirass
     * Zweihander's cuirass (puffy)
+    * Fur cloak
 * Added Royal apparel requirement to the following:
     * Gilded full plate
     * Gilded arnet
@@ -141,6 +156,9 @@ Shields have been balanced and now require more research. Round shield is unlock
     * Plague mask
     * Chaperon (nerfed, provides less armour)
 * Round shield and Heater shield stay in Smithing and Plate armor respectively
+* TODO: Changed nudity for the following:
+    * Plague mask
+    * Padded helm
 
 ## Vanilla Factions Expanded - Medieval 2 + Royalty
 * Moved the following to Noble Apparel:
@@ -203,7 +221,7 @@ Shields have been balanced and now require more research. Round shield is unlock
 * Removed Plate Gloves and Plate Boots in favour of MO
 * VE Quilted Vest removed in favour of MO Vest, slightly nerfed and requires MO Leather tanning research
 * VE Gambeson removed in favour of MO Gambeson, slightly nerfed and requires MO Leather tanning research
-* VE Leather Tanning research removed
+* TODO: VE Leather Tanning research removed
 
 # Bug Fixes
 * Fixed name capitalisations for a bunch of items in both VE and MO
