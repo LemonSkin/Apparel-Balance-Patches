@@ -88,36 +88,7 @@ TBA
 ### Fixes
 * Fixed assorted naming capitalisations and consistencies
 ### Stat Rebalances
-Clothes and armour costs and stats are pretty out of whack with the vanilla game. I aim to make these more aligned to vanilla values to provide a proper sense of progression.
-Pants are now closer to Vanilla Pants stats but take slightly longer to make and user more materials.
-The Padded surcoat can now be made out of leather. It has stats equivalent to the Vanilla T-shirt, but takes longer to make, requires more materials and weighs more.
-The Gambeson can now be made out of leather. It has increased cold protection, increased armour and weighs more. In exchange, it takes quite a bit longer to make and uses more materials.
-
-Generally, fewer clothes count for nudity - hats, helmets, gloves, boots, etc no longer count as clothing.
-
-Clothing and armour has been balanced to align more closely with vanilla stats.
-
-Armour and headgear has been balanced using Plate armor from vanilla and various medieval armors from the Vanilla Expanded mods.
-
-Protective clothing provides additional warmth and is fast and cheap to make, but does not provide much in the way of protection. The kettle helm is more range-focussed, while the flat-top and nasal helms are melee focused.
-
-Chain armour is lighter and more maneauverable than plate armour, but provides slightly less protection and takes a long time to craft. 
-
-The Hauberk makes up the base for the armour on the middle layer as follows:
-    * Light Plate Armour has been nerfed, now provides 0.85 armour multiplier and -0.4 movespeed.
-    * Hauberk + Heavy Hauberk < VE Light Plate Armour
-    * Hauberk + Breast Plate ~= VE Light Plate Armour, provides slightly more armour but is slightly less maneauverable
-    * Hauberk + Brigandine ~= Plate Armour
-    * Hauberk + Full Plate ~= VE Heavy Plate Armour
-
-Plate armours have been rebalanced, but the various helmets are mostly equivalent and are there to provide flavour to your armies.
-
-Adorned gear takes slightly longer to make and has a small social impact buff, as well as the existing cold resistance.
-Gilded gear takes longer to make, but has a greater social impact buff.
-
-Lindwurm armour is rare and quite difficult to make, however it is very protective, insulating and light. It offers the protection of full plate armour, but the weight and maneuverability of light plate armor.
-
-Shields have been balanced and now require more research. Round shield is unlocked with Protective clothing, Heater shield with Chain armour, and Kite shield with Plate armor.
+A full spreadsheet can be seen here: https://docs.google.com/spreadsheets/d/e/2PACX-1vQmmVptvppCcBcHlpddp4ybxqxiWHD-lYgHZshrmveGyvD1ocn9eV8f_0VRB8O-neccd-cqWn6lkID6/pubhtml
 
 ## Medieval Overhaul + Biotech
 * Nerfed MO Quiver so that Biotech’s Heavy bandolier is a direct upgrade
@@ -219,8 +190,8 @@ Shields have been balanced and now require more research. Round shield is unlock
     * Plate Shoulderpads, MO Breast plate and Brigandine no longer provide shoulder coverage and have their movement speed malus reduced to compensate
 * Removed VE Chestplate in favour of MO Breast Plate
 * Removed Plate Gloves and Plate Boots in favour of MO
-* VE Quilted Vest removed in favour of MO Vest, slightly nerfed and requires MO Leather tanning research
-* VE Gambeson removed in favour of MO Gambeson, slightly nerfed and requires MO Leather tanning research
+* VE Quilted Vest removed in favour of MO Vest, rebalanced and requires MO Leather tanning research
+* VE Gambeson removed in favour of MO Gambeson, rebalanced and requires MO Leather tanning research
 * TODO: VE Leather Tanning research removed
 
 # Bug Fixes

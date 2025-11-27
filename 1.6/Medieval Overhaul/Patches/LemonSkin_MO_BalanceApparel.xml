@@ -151,11 +151,4 @@
       </li>
     </operations>
   </Operation>
-  <!-- Vest -->
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Leather_Tunic"]/statBases/MaxHitPoints</xpath>
-    <value>
-      <MaxHitPoints>150</MaxHitPoints>
-    </value>
-  </Operation>
 </Patch>
