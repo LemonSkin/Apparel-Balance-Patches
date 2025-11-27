@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Royalty Integration -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_JesterHat"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>NobleApparel</researchPrerequisite>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_JesterOutfit"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>NobleApparel</researchPrerequisite>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_DameHat"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>NobleApparel</researchPrerequisite>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_DameDress"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>NobleApparel</researchPrerequisite>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_KingsRobes"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>RoyalApparel</researchPrerequisite>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_KingsCrown"]/recipeMaker/researchPrerequisites/li[.="LemonSkin_RusticClothing"]</xpath>
+    <value>
+      <li>RoyalApparel</li>
+    </value>
+  </Operation>
+</Patch>
