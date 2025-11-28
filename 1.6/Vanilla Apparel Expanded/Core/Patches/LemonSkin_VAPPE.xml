@@ -20,27 +20,23 @@
     </value>
   </Operation>
   <!-- Integration -->
-  <Operation Class="PatchOperationSequence">
-    <operations>
-      <li Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="VAE_Apparel_Tunic"]/recipeMaker/researchPrerequisite</xpath>
-        <value>
-          <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
-        </value>
-      </li>
-      <li Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="VAE_Apparel_Blouse"]/recipeMaker/researchPrerequisite</xpath>
-        <value>
-          <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
-        </value>
-      </li>
-      <li Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="VAE_Apparel_Apron"]/recipeMaker/researchPrerequisite</xpath>
-        <value>
-          <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
-        </value>
-      </li>
-    </operations>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_Tunic"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_Blouse"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_Apron"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
+    </value>
   </Operation>
   <!-- Apron -->
   <Operation Class="PatchOperationReplace">

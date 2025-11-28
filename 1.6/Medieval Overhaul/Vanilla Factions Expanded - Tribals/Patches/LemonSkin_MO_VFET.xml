@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Sackcloth -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Sackcloth"]/recipeMaker</xpath>
+    <value>
+      <researchPrerequisite>VFET_Culture</researchPrerequisite>
+    </value>
+  </Operation>
+</Patch>

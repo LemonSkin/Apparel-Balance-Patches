@@ -54,22 +54,18 @@
       <researchPrerequisite>ComplexClothing</researchPrerequisite>
     </value>
   </Operation>
-  <Operation Class="PatchOperationSequence">
-    <operations>
-      <li Class="PatchOperationRemove">
-        <xpath>Defs/ThingDef[defName="Apparel_Shadecone"]/recipeMaker/researchPrerequisite</xpath>
-      </li>
-      <li Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="Apparel_Shadecone"]/recipeMaker</xpath>
-        <value>
-          <recipeUsers>
-            <li>ElectricTailoringBench</li>
-            <li>HandTailoringBench</li>
-            <li>CraftingSpot</li>
-          </recipeUsers>
-        </value>
-      </li>
-    </operations>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="Apparel_Shadecone"]/recipeMaker/researchPrerequisite</xpath>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_Shadecone"]/recipeMaker</xpath>
+    <value>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+    </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="Apparel_Collar"]/recipeMaker</xpath>

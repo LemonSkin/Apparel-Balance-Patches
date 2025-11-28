@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ZweihandersHat"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisites>
+        <li>DankPyon_ProtectiveClothing</li>
+        <li>NobleApparel</li>
+      </researchPrerequisites>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ZweihanderHelm"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisites>
+        <li>DankPyon_ChainArmor</li>
+        <li>NobleApparel</li>
+      </researchPrerequisites>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Zweihanders_Cuirass"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisites>
+        <li>PlateArmor</li>
+        <li>NobleApparel</li>
+      </researchPrerequisites>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ArmetGilded"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisites>
+        <li>PlateArmor</li>
+        <li>RoyalApparel</li>
+      </researchPrerequisites>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_FullPlateGilded"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisites>
+        <li>PlateArmor</li>
+        <li>RoyalApparel</li>
+      </researchPrerequisites>
+    </value>
+  </Operation>
+</Patch>

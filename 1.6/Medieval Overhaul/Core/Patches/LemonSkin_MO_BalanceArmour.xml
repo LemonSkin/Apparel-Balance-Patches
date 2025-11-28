@@ -568,6 +568,9 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Brigandine"]/apparel/bodyPartGroups/li[.="Shoulders"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
     <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Brigandine"]/apparel/bodyPartGroups/li[.="Legs"]</xpath>
   </Operation>
   <!-- Breast plate -->

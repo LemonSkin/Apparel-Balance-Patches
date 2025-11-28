@@ -2,13 +2,13 @@
 <Patch>
   <!-- Padded Armour -->
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_LeatherArmor"]/label</xpath>
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_PaddedArmor"]/label</xpath>
     <value>
       <label>light padded armor</label>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_LeatherArmor"]/statBases/WorkToMake</xpath>
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_PaddedArmor"]/statBases/WorkToMake</xpath>
     <value>
       <WorkToMake>3600</WorkToMake>
     </value>

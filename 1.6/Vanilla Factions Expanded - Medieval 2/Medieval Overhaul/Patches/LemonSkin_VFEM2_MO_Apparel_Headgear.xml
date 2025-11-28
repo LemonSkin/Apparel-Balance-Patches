@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Cap -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_Cap"]/statBases/StuffEffectMultiplierArmor</xpath>
+    <value>
+      <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+    </value>
+  </Operation>
+  <!-- Chaperon -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_Chaperon"]/statBases/StuffEffectMultiplierArmor</xpath>
+    <value>
+      <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+    </value>
+  </Operation>
+  <!-- Mantle -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_Chaperon"]/statBases/StuffEffectMultiplierArmor</xpath>
+    <value>
+      <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+    </value>
+  </Operation>
+</Patch>
