@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Beret, Tier 2 Hats: Ladies hat, Top hat, Tier 2 Apparel: Formal shirt, Tier 5 Apparel: Corset, Formal vest -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_DressA" or 
+        defName="Gunmar_Apparel_DressB" or
+        defName="Gunmar_Apparel_Maid" or
+        defName="Gunmar_Apparel_Maidb" or
+        defName="Gunmar_Apparel_WalkingDress" or
+        defName="Gunmar_Apparel_RidingHabit" or
+        defName="Gunmar_Apparel_SimpleDress" or
+        defName="Gunmar_Apparel_DressCoat" or
+        defName="Gunmar_Apparel_Frock_Coat" or
+        defName="Gunmar_Apparel_Smoking_Jacket" or
+        defName="Gunmar_Apparel_Waistcoat" or
+        defName="Gunmar_Apparel_Soldier_Coat" or
+        defName="Gunmar_Apparel_Hussar_Jacket" or
+        defName="Gunmar_Apparel_FeatheredHat" or
+        defName="Gunmar_Apparel_MaidHead" or
+        defName="Gunmar_Apparel_MaidHeadb" or
+        defName="Gunmar_Apparel_BoaterHat" or
+        defName="Gunmar_Apparel_TopHat" or
+        defName="Gunmar_Apparel_Soldier_Helmet" or
+        defName="Gunmar_Apparel_Slouch_Hat" or
+        defName="Gunmar_Apparel_Shako_Hat" or
+        defName="Gunmar_Apparel_Glasses" or
+        defName="Gunmar_Apparel_Monocle" or
+        defName="Gunmar_Apparel_Monocle" or
+        ]/recipeMaker</xpath>
+    <value>
+      <researchPrerequisites>
+        <li>LemonSkin_VictorianEraApparels</li>
+      </researchPrerequisites>
+    </value>
+  </Operation>
+</Patch>

@@ -194,6 +194,10 @@ A full spreadsheet can be seen here: https://docs.google.com/spreadsheets/d/e/2P
 * VE Gambeson removed in favour of MO Gambeson, rebalanced and requires MO Leather tanning research
 * TODO: VE Leather Tanning research removed
 
+## Victorian Era Apparels!
+* Created a new research project, Victorian clothing. Requires Rustic Clothing to be researched first.
+* TODO: Rebalance apparel items
+
 ## TODO:
 * Add Fae gear to its own research ()
     * Add smithing pre-requisite to Faehelm
@@ -207,8 +211,6 @@ A full spreadsheet can be seen here: https://docs.google.com/spreadsheets/d/e/2P
     * Headband (maybe nerf too)
 * ReSplice: Charmweavers
     * Slave outfit
-* Victorian Era Apparels
-    * Own research, definitely needs balancing and de-duplicating
 * Vanilla Ideology Expanded - Hats and Rags
     * Military cap, horse mask, commissar hat
 * Tacticool Ops

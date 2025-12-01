@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <loadFolders>
   <v1.6>
+    <li IfModActive="Gunmar.VictorianEraApparels">1.6/Victorian Era Apparels!/Core</li>
     <li IfModActiveAll="VanillaExpanded.VARME,DankPyon.Medieval.Overhaul"
       >1.6/Vanilla Armor Expanded/Medieval Overhaul</li
     >
@@ -43,44 +44,3 @@
     <li>/</li>
   </v1.6>
 </loadFolders>
-<!-- <loadFolders>
-  <v1.6>
-    <li>/</li>
-    <li>1.6/Core</li>
-    <li IfModActive="ludeon.rimworld.royalty">1.6/Royalty</li>
-    <li IfModActive="ludeon.rimworld.ideology">1.6/Ideology</li>
-    <li IfModActive="ludeon.rimworld.biotech">1.6/Biotech</li>
-    <li IfModActive="DankPyon.Medieval.Overhaul">1.6/Medieval Overhaul/Core</li>
-    <li IfModActiveAll="DankPyon.Medieval.Overhaul,ludeon.rimworld.royalty"
-      >1.6/Medieval Overhaul/Royalty</li
-    >
-    <li IfModActiveAll="DankPyon.Medieval.Overhaul,ludeon.rimworld.biotech"
-      >1.6/Medieval Overhaul/Biotech</li
-    >
-    <li IfModActiveAll="DankPyon.Medieval.Overhaul,VanillaExpanded.VAPPE"
-      >1.6/Medieval Overhaul/Vanilla Apparel Expanded</li
-    >
-    <li IfModActiveAll="DankPyon.Medieval.Overhaul,VanillaExpanded.VARME"
-      >1.6/Medieval Overhaul/Vanilla Armor Expanded</li
-    >
-    <li IfModActive="OskarPotocki.VFE.Medieval2"
-      >1.6/Vanilla Factions Expanded - Medieval 2/Core</li
-    >
-    <li IfModActiveAll="OskarPotocki.VFE.Medieval2,ludeon.rimworld.royalty"
-      >1.6/Vanilla Factions Expanded - Medieval 2/Royalty</li
-    >
-    <li IfModActiveAll="OskarPotocki.VFE.Medieval2,DankPyon.Medieval.Overhaul"
-      >1.6/Vanilla Factions Expanded - Medieval 2/Medieval Overhaul</li
-    >
-    <li IfModActive="VanillaExpanded.VAPPE">1.6/Vanilla Apparel Expanded/Core</li>
-    <li IfModActiveAll="VanillaExpanded.VAPPE,ludeon.rimworld.anomaly"
-      >1.6/Vanilla Apparel Expanded/Anomaly</li
-    >
-    <li IfModActiveAll="VanillaExpanded.VAPPE,DankPyon.Medieval.Overhaul"
-      >1.6/Vanilla Apparel Expanded/Medieval Overhaul</li
-    >
-    <li IfModActiveAll="VanillaExpanded.VARME,DankPyon.Medieval.Overhaul"
-      >1.6/Vanilla Armor Expanded/Medieval Overhaul</li
-    >
-  </v1.6>
-</loadFolders> -->
