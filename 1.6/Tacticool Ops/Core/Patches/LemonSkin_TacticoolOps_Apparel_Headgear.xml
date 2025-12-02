@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[@Name="TACTICOOL_FaceBandanaBase"]/recipeMaker</xpath>
+    <value>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </value>
+  </Operation>
+</Patch>

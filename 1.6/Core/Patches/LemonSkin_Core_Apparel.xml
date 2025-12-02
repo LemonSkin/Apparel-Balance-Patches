@@ -22,4 +22,16 @@
       </value>
     </match>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_Parka"]/techLevel</xpath>
+    <value>
+      <techLevel>Industrial</techLevel>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_Parka"]/recipeMaker</xpath>
+    <value>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </value>
+  </Operation>
 </Patch>

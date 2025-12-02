@@ -198,13 +198,22 @@ A full spreadsheet can be seen here: https://docs.google.com/spreadsheets/d/e/2P
 * Created a new research project, Victorian clothing. Requires Rustic Clothing to be researched first.
 * TODO: Rebalance apparel items
 
+## Roo's Satyr and Faun Xenotypes Expanded
+* Removed Fae craftables from tribal start. Now only the scenarios added by the mod start with this unlocked.
+
+## Biomes! Fossils
+* Made Paleontology a research prerequisite to craft the plushies
+
+## Tacticool Ops
+* Added ComplexClothing requirement to face bandanas
+* TODO: Maybe move all this gear to its own research
+
+## Vanilla Ideology Expanded - Hats and Rags
+* Added ComplexClothing requirement to: Commissar hat, military cap, and horse mask
+
 ## TODO:
-* Add Fae gear to its own research ()
-    * Add smithing pre-requisite to Faehelm
 * Roo's Minotaur Xenotype: 
     * Add Cowbell to Fae research
-* Foo's Satyr and Faun Xenotypes Expanded
-    * Add gear to Fae research, Faehelm should have smithing prereq
 * Vanilla Genentics Expanded: 
     * Muffalo pelt rug, Wolf rug, Huge bear rug, Huge Bearcat Rug
 * Samurai Faction
@@ -213,13 +222,16 @@ A full spreadsheet can be seen here: https://docs.google.com/spreadsheets/d/e/2P
     * Slave outfit
 * Vanilla Ideology Expanded - Hats and Rags
     * Military cap, horse mask, commissar hat
-* Tacticool Ops
-    * Bandana masks
 * Det's Xenotypes - Avaloi
     * Trilense glasses
-* Biomes! Fossils
-    * Plushes
 
 # Bug Fixes
 * Fixed name capitalisations for a bunch of items in both VE and MO
 * Fixed MO rugs appearing as bills without prior research research
+
+# Weapons Notes That I Don't Have Somewhere Else To Put Yet
+* Roo's Minotaur Xenotype: Epsilon axe
+* Roo's Minotaur Xenotype Expanded: Pelekys
+* Roo's Satyr Xenotype: Lute, lyre, reed flute, bodhran,
+* VFE-M2: Heavy mace, shortsword, flail, throwing axes,
+* Vanilla Weapons Expanded: Hammer, axe, throwing knives, long whip, 

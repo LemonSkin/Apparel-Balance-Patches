@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <!-- Beret, Tier 2 Hats: Ladies hat, Top hat, Tier 2 Apparel: Formal shirt, Tier 5 Apparel: Corset, Formal vest -->
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_DressA" or 
         defName="Gunmar_Apparel_DressB" or

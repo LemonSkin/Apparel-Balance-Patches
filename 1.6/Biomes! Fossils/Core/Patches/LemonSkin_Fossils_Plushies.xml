@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Beret, Tier 2 Hats: Ladies hat, Top hat, Tier 2 Apparel: Formal shirt, Tier 5 Apparel: Corset, Formal vest -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[@Name="BMT_PlushiesSculptureBase"]/recipeMaker</xpath>
+    <value>
+      <researchPrerequisites>
+        <li>BMT_Paleontology</li>
+      </researchPrerequisites>
+    </value>
+  </Operation>
+</Patch>
