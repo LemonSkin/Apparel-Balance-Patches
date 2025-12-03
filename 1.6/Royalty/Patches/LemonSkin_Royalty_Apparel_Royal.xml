@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <!-- Beret, Tier 2 Hats: Ladies hat, Top hat, Tier 2 Apparel: Formal shirt, Tier 5 Apparel: Corset, Formal vest -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[
       defName="Apparel_Beret" or 
@@ -15,11 +14,22 @@
       </researchPrerequisites>
     </value>
   </Operation>
-  <!-- Coronet & Crown -->
   <Operation Class="PatchOperationConditional">
-    <xpath>Defs/ThingDef[defName="Apparel_Coronet" or defName="Apparel_Crown"]/recipeMaker/researchPrerequisite</xpath>
+    <xpath>Defs/ThingDef[defName="Apparel_Coronet"]/recipeMaker/researchPrerequisite</xpath>
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="Apparel_Coronet"]/recipeMaker/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisites>
+          <li>RoyalApparel</li>
+          <li>Smithing</li>
+        </researchPrerequisites>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Apparel_Crown"]/recipeMaker/researchPrerequisite</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Apparel_Crown"]/recipeMaker/researchPrerequisite</xpath>
       <value>
         <researchPrerequisites>
           <li>RoyalApparel</li>
