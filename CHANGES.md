@@ -12,7 +12,7 @@ On its own, this mod doesn’t do a whole lot - it creates a new research projec
     * Cape (if Royalty or Biotech installed)
 * Flak armor requires Machining and Complex clothing - Modern combat armour doesn't have much in common with medieval plate armour
 * The Plate armor research project now requires Rustic clothing instead of Complex clothing
-* TODO: Steel simple helmet now requires Complex clothing
+* Steel simple helmet now requires Complex clothing
 
 # Integrations
 Generally, apparel and armour items have had their research requirements adjusted to make sense and to provide a deeper sense of progression. Items have also been rebalanced to give players more reasons to use them and to make fewer items clear winners in any given category.
@@ -201,6 +201,11 @@ A full spreadsheet can be seen here: https://docs.google.com/spreadsheets/d/e/2P
 ## Roo's Satyr and Faun Xenotypes Expanded
 * Removed Fae craftables from tribal start. Now only the scenarios added by the mod start with this unlocked.
 
+## Roo's Minotaur Xenotype Expanded
+* Added new research project, Minotaur craftables
+* Moved most apparel items to Minotaur craftables
+* Added the new research as a starting research for various minotaur scenarios
+
 ## Biomes! Fossils
 * Made Paleontology a research prerequisite to craft the plushies
 
@@ -212,7 +217,7 @@ A full spreadsheet can be seen here: https://docs.google.com/spreadsheets/d/e/2P
 * Added ComplexClothing requirement to: Commissar hat, military cap, and horse mask
 
 ## TODO:
-* Roo's Minotaur Xenotype: 
+* Roo's Minotaur Xenotype Expanded: 
     * Add Cowbell to Fae research
 * Vanilla Genentics Expanded: 
     * Muffalo pelt rug, Wolf rug, Huge bear rug, Huge Bearcat Rug
@@ -220,8 +225,6 @@ A full spreadsheet can be seen here: https://docs.google.com/spreadsheets/d/e/2P
     * Headband (maybe nerf too)
 * ReSplice: Charmweavers
     * Slave outfit
-* Vanilla Ideology Expanded - Hats and Rags
-    * Military cap, horse mask, commissar hat
 * Det's Xenotypes - Avaloi
     * Trilense glasses
 

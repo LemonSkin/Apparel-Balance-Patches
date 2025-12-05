@@ -6,4 +6,13 @@
       <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_SimpleHelmet"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisites>
+        <li>ComplexClothing</li>
+        <li>Smithing</li>
+      </researchPrerequisites>
+    </value>
+  </Operation>
 </Patch>

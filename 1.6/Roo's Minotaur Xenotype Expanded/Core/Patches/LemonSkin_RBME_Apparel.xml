@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBME_Chiton"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>LemonSkin_RBME_MinotaurCraftables</researchPrerequisite>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBME_HellenicHelmet"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisites>
+        <li>PlateArmor</li>
+        <li>LemonSkin_RBME_MinotaurCraftables</li>
+      </researchPrerequisites>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBME_RoyalHellenicHelmet"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisites>
+        <li>PlateArmor</li>
+        <li>LemonSkin_RBME_MinotaurCraftables</li>
+      </researchPrerequisites>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="RBME_Cowbell"]/recipeMaker</xpath>
+    <value>
+      <researchPrerequisite>LemonSkin_RBME_MinotaurCraftables</researchPrerequisite>
+    </value>
+  </Operation>
+</Patch>
