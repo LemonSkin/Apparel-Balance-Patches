@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ModMetaData>
-  <name>Progression: Apparel and Armour</name>
-  <author>LemonSkin</author>
-  <packageId>lemonskin.progressionapparelandarmour</packageId>
+  <name>Progression: Attire</name>
+  <author>Ferny, Lemonskin</author>
+  <packageId>ferny.progressionattire</packageId>
   <supportedVersions>
     <li>1.6</li>
   </supportedVersions>
   <modDependencies></modDependencies>
-  <description>Tweaks research requirements and de-duplicates apparel and armour from various mods</description>
+  <description>Tweaks research requirements and de-duplicates attire from various mods.</description>
   <loadAfter>
+    <li>Ludeon.Rimworld</li>
+		<li>Ludeon.Rimworld.Royalty</li>
+		<li>Ludeon.Rimworld.Ideology</li>
+		<li>Ludeon.Rimworld.Biotech</li>
+		<li>Ludeon.Rimworld.Anomaly</li>
+		<li>Ludeon.Rimworld.Odyssey</li>
     <li>DankPyon.Medieval.Overhaul</li>
     <li>OskarPotocki.VFE.Medieval2</li>
     <li>VanillaExpanded.VAPPE</li>
