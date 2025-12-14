@@ -40,7 +40,7 @@
 * Centurion Helmet - 40% armour, -5 shooting penalty, -4% mental break
 * Heavy Leather Helmet - 40% armour, -6 shooting penalty, 15% pain shock
 * Samurai Helmet - 50% armour, -4 shooting penalty, 10% pain shock
-* Daimyo Helmet - 50% armour, -4 shooting penalty, 10% pain shock, 30% social
+* Daimyo Helmet - As above, + social and slave suppression
 * Chainveil Helmets - 60% armour, -5 shooting penalty
 * Open Plate Helmets - 65% armour, -6 shooting penalty
 
