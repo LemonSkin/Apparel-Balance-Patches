@@ -57,9 +57,9 @@
 
     <!-- For bench organization -->
     <li IfModActive="unagi.ap.dress">1.6/Unagi Royalty</li>
-
-
-
-
+    <li IfModActive="mo.size.valentine.apparel">1.6/Bread Mos Valentines Day Apparel</li>
+    <li IfModActive="mouse.gloomydress">1.6/Gloomy Dress</li>
+    <li IfModActive="ponpeco.ponpecoaccessories">1.6/Ponpeco Accessories</li>
+    <li IfModActive="needy.girl.overdose">1.6/Needy Girl Overdose</li>
   </v1.6>
 </loadFolders>

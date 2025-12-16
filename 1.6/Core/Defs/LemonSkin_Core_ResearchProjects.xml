@@ -10,4 +10,15 @@
     <researchViewX>0.00</researchViewX>
     <researchViewY>4.90</researchViewY>
   </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Ferny_VanityTable</defName>
+    <label>vanity table</label>
+    <description>Tailor beautiful garments for women.</description>
+    <baseCost>400</baseCost>
+    <tab></tab>
+    <techLevel>Medieval</techLevel>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>4.90</researchViewY>
+  </ResearchProjectDef>
 </Defs>

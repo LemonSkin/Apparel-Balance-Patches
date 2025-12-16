@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="PAEarringBase"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker>
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="PAGlassesBase"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker>
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PAHHeadScarf"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker>
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PAHHeadScarfB"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker>
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PAHHeadband"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker>
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PAHRibbonHeadband"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker>
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PAHDekaRibbon"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker>
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PAHMokoRibbon"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker>
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PAHHeadphones"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker>
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PAHVeil"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker>
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PAHDeepHood"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker>
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PAHPilotGoggles"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker>
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PAHHeaddress"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker>
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PAHAngolaBeret"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker>
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PAHTiara"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker>
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PAHKnitHeadband"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker>
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_PAHPillboxHat"]</xpath>
+    <value>
+      <recipeMaker>
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_PAHFedora"]</xpath>
+    <value>
+      <recipeMaker>
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_PAHFlatCap"]</xpath>
+    <value>
+      <recipeMaker>
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_PAHCatEarNewsboy"]</xpath>
+    <value>
+      <recipeMaker>
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_PAHSailorBeret"]</xpath>
+    <value>
+      <recipeMaker>
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PAHMechaBunnyEars"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker>
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PAHHalfKitsuneMask"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker>
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PAHCyberSunVisor"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker>
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PAHCyberHelm"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker>
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+  <!-- PAM: force all these to craft ONLY at Ferny_VanityTable + set researchPrerequisite to Ferny_VanityTable -->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PAMHairExtensions"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker>
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PAMRibbonPin"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker>
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PAMStarHairPin"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker>
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PAMCloverCrown"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker>
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PAMFloralPin"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker>
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PAMRoseCrown"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker>
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PAMPartyHat"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker>
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+  <!-- PAN: force these to craft ONLY at Ferny_VanityTable + set researchPrerequisite to Ferny_VanityTable -->
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_PANMuffler"]</xpath>
+    <value>
+      <recipeMaker>
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PANNeckScarf"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker>
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PANFluffyMuffler"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker>
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+
+</Patch>
