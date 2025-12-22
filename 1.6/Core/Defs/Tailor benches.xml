@@ -74,7 +74,7 @@
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
     </placeWorkers>
     <researchPrerequisites>
-      <li>ComplexClothing</li>
+      <li>Ferny_VanityTable</li>
     </researchPrerequisites>
   </ThingDef>
 
