@@ -10,7 +10,6 @@
     <researchViewX>0.00</researchViewX>
     <researchViewY>4.90</researchViewY>
   </ResearchProjectDef>
-
   <ResearchProjectDef>
     <defName>Ferny_VanityTable</defName>
     <label>vanity table</label>
@@ -21,7 +20,6 @@
     <researchViewX>0.00</researchViewX>
     <researchViewY>4.90</researchViewY>
   </ResearchProjectDef>
-
   <ResearchProjectDef>
     <defName>Ferny_CostumingTable</defName>
     <label>costuming table</label>
@@ -32,6 +30,4 @@
     <researchViewX>0.00</researchViewX>
     <researchViewY>4.90</researchViewY>
   </ResearchProjectDef>
-
-
 </Defs>

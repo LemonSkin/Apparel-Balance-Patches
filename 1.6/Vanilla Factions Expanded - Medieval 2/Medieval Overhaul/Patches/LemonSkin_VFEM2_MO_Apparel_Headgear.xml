@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
+  <!-- Heavy Plate Helmet -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_PlateHelmetHeavy"]/recipeMaker/recipeUsers</xpath>
+    <order>Append</order>
+    <value>
+      <li>DankPyon_Anvil</li>
+    </value>
+  </Operation>
   <!-- Cap -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VFEM2_Apparel_Cap"]/statBases/StuffEffectMultiplierArmor</xpath>
@@ -70,34 +78,6 @@
         <ShootingAccuracyPawn>-8</ShootingAccuracyPawn>
         <PainShockThreshold>0.10</PainShockThreshold>
       </equippedStatOffsets>
-    </value>
-  </Operation>
-  <!-- Heavy Plate Helmet -->
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_PlateHelmetHeavy"]/recipeMaker/recipeUsers</xpath>
-    <order>Append</order>
-    <value>
-      <li>DankPyon_Anvil</li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_PlateHelmetHeavy"]/recipeMaker/skillRequirements/Crafting</xpath>
-    <value>
-      <Crafting>12</Crafting>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_PlateHelmetHeavy"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>36000</WorkToMake>
-        <MaxHitPoints>180</MaxHitPoints>
-        <Mass>3.5</Mass>
-        <StuffEffectMultiplierArmor>1.02</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>4</EquipDelay>
-      </statBases>
     </value>
   </Operation>
 </Patch>
