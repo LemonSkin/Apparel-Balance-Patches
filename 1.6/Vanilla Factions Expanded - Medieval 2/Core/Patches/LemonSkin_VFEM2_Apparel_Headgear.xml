@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Heavy Plate Helmet -->
+  <!-- Jester Hat -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_JesterHat"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>1800</WorkToMake>
+        <MaxHitPoints>80</MaxHitPoints>
+        <Mass>0.14</Mass>
+        <EquipDelay>0.8</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <!-- Dame Hat -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_DameHat"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>50</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_DameHat"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>6000</WorkToMake>
+        <MaxHitPoints>80</MaxHitPoints>
+        <Mass>0.1</Mass>
+        <EquipDelay>0.8</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_DameHat"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <SocialImpact>0.15</SocialImpact>
+        <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.05</SlaveSuppressionOffset>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <!-- King's Crown -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_KingsCrown"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>55</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_KingsCrown"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>12000</WorkToMake>
+        <MaxHitPoints>80</MaxHitPoints>
+        <Mass>0.9</Mass>
+        <EquipDelay>0.8</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_KingsCrown"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <SocialImpact>0.2</SocialImpact>
+        <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.3</SlaveSuppressionOffset>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <!-- Plague Mask -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_PlagueMask"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>5000</WorkToMake>
+        <MaxHitPoints>80</MaxHitPoints>
+        <Mass>0.14</Mass>
+        <EquipDelay>0.8</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_PlagueMask"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <ToxicResistance>0.4</ToxicResistance>
+        <SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">0.1</SuppressionPower>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <!-- Heavy Leather Helmet -->
+  <!-- Leather Helmet -->
+  <!-- Padded Helmet -->
+  <!-- Chaperon -->
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_Chaperon"]/recipeMaker/skillRequirements</xpath>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_Chaperon"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>25</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_Chaperon"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>2000</WorkToMake>
+        <MaxHitPoints>80</MaxHitPoints>
+        <Mass>0.07</Mass>
+        <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.4</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>0.8</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_Chaperon"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <NegotiationAbility>0.05</NegotiationAbility>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <!-- Cap -->
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_Cap"]/recipeMaker/skillRequirements</xpath>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_Cap"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>1800</WorkToMake>
+        <MaxHitPoints>80</MaxHitPoints>
+        <Mass>0.07</Mass>
+        <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>0.8</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_Cap"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+</Patch>

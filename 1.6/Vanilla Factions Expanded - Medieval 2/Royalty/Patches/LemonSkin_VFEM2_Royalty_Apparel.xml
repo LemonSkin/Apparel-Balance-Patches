@@ -18,6 +18,14 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_KingsRobes"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>ApparelNoble</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VFEM2_Apparel_KingsCrown"]/recipeMaker/researchPrerequisites/li[.="LemonSkin_RusticClothing"]</xpath>
     <value>
       <li>RoyalApparel</li>

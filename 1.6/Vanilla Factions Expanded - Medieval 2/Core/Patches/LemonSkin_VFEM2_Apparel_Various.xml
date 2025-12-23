@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- VFEM2_Apparel_PlateArmorHeavy -->
+  <!-- VFEM2_Apparel_JesterOutfit -->
+  <!-- VFEM2_Apparel_DameDress -->
+  <!-- VFEM2_Apparel_KingsRobes -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_KingsRobes"]/costList</xpath>
+    <value>
+      <costList>
+        <Gold>6</Gold>
+      </costList>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_KingsRobes"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>20000</WorkToMake>
+        <MaxHitPoints>100</MaxHitPoints>
+        <Mass>0.75</Mass>
+        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.8</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>2.0</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_KingsRobes"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <SocialImpact>0.2</SocialImpact>
+        <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <!-- VFEM2_Apparel_HeavyLeatherArmor -->
+  <!-- VFEM2_Apparel_LeatherArmor -->
+  <!-- VFEM2_Apparel_Tabard -->
+  <!-- VFEM2_Apparel_PaddedArmor -->
+  <!-- VFEM2_Apparel_Mantle -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_Mantle"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>1000</WorkToMake>
+        <MaxHitPoints>100</MaxHitPoints>
+        <Mass>0.3</Mass>
+        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.65</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>1.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+</Patch>

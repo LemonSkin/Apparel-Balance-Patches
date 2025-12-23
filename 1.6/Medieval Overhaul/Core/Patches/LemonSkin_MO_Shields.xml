@@ -2,6 +2,14 @@
 <Patch>
   <!-- Shield Base -->
   <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="DankPyon_BaseShield"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>VFEC_Shields</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[@Name="DankPyon_BaseShield"]/equippedStatOffsets</xpath>
     <value>
       <equippedStatOffsets>

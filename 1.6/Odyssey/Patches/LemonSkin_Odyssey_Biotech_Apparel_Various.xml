@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Apparel_VacsuitChildren"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Apparel_VacsuitChildren"]/thingCategories</xpath>
+      <value>
+        <thingCategories>
+          <li>LemonSkin_KidArmor</li>
+        </thingCategories>
+      </value>
+    </match>
+  </Operation>
+</Patch>

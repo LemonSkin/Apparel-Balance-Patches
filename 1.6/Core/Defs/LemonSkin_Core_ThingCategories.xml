@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Neolithic -->
+  <ThingCategoryDef>
+    <defName>LemonSkin_NeolithicArmor</defName>
+    <label>neolithic armor</label>
+    <parent>ApparelArmor</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_NeolithicArmorHeadgear</defName>
+    <label>headgear</label>
+    <parent>LemonSkin_NeolithicArmor</parent>
+  </ThingCategoryDef>
+  <!-- Medieval -->
+  <ThingCategoryDef>
+    <defName>LemonSkin_MedievalArmor</defName>
+    <label>medieval armor</label>
+    <parent>ApparelArmor</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_MedievalArmorHeadgear</defName>
+    <label>headgear</label>
+    <parent>LemonSkin_MedievalArmor</parent>
+  </ThingCategoryDef>
+  <!-- Industrial -->
+  <ThingCategoryDef>
+    <defName>LemonSkin_IndustrialArmor</defName>
+    <label>industrial armor</label>
+    <parent>ApparelArmor</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_IndustrialArmorHeadgear</defName>
+    <label>headgear</label>
+    <parent>LemonSkin_IndustrialArmor</parent>
+  </ThingCategoryDef>
+  <!-- Spacer -->
+  <ThingCategoryDef>
+    <defName>LemonSkin_SpacerArmor</defName>
+    <label>spacer armor</label>
+    <parent>ApparelArmor</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_SpacerArmorHeadgear</defName>
+    <label>headgear</label>
+    <parent>LemonSkin_SpacerArmor</parent>
+  </ThingCategoryDef>
+  <!-- Era Apparel Categories -->
+  <!-- Neolithic -->
+  <ThingCategoryDef>
+    <defName>LemonSkin_NeolithicApparel</defName>
+    <label>neolithic apparel</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_NeolithicApparelHeadgear</defName>
+    <label>headgear</label>
+    <parent>LemonSkin_NeolithicApparel</parent>
+  </ThingCategoryDef>
+  <!-- Medieval -->
+  <ThingCategoryDef>
+    <defName>LemonSkin_MedievalApparel</defName>
+    <label>medieval apparel</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+  <!-- Industrial -->
+  <ThingCategoryDef>
+    <defName>LemonSkin_IndustrialApparel</defName>
+    <label>industrial apparel</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+  <!-- Spacer -->
+  <ThingCategoryDef>
+    <defName>LemonSkin_SpacerApparel</defName>
+    <label>spacer apparel</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+</Defs>

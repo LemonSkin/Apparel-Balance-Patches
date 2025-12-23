@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Rewire military clothing if it exists and then delete VAE LeatherTanning research -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Apparel Expanded</li>
+    </mods>
+    <nomatch Class="PatchOperationRemove">
+      <xpath>Defs/ResearchProjectDef[defName="VAE_MilitaryClothing"]/prerequisites</xpath>
+      <success>Always</success>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ResearchProjectDef[defName="VAE_LeatherTanning"]</xpath>
+  </Operation>
+</Patch>
