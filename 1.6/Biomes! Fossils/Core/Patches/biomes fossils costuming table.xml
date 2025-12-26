@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="BMT_Apparel_DinoHatCarni"]/recipeMaker</xpath>
+    <xpath>Defs/ThingDef[@Name="BMT_Apparel_DinoHatCarni_Base"]/recipeMaker</xpath>
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
@@ -12,7 +11,6 @@
       </recipeMaker>
     </value>
   </Operation>
-
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="BMT_Apparel_MascotOutfit"]/recipeMaker</xpath>
     <value>
@@ -24,5 +22,4 @@
       </recipeMaker>
     </value>
   </Operation>
-
 </Patch>

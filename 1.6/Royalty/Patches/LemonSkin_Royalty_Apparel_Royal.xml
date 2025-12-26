@@ -38,4 +38,15 @@
       </value>
     </match>
   </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Apparel Expanded</li>
+    </mods>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Apparel_Beret"]/label</xpath>
+      <value>
+        <label>ceremonial beret</label>
+      </value>
+    </match>
+  </Operation>
 </Patch>

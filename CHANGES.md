@@ -13,6 +13,7 @@ On its own, this mod doesn’t do a whole lot - it creates a new research projec
 * Flak armor requires Machining and Complex clothing - Modern combat armour doesn't have much in common with medieval plate armour
 * The Plate armor research project now requires Rustic clothing instead of Complex clothing
 * Steel simple helmet now requires Complex clothing
+* WIP: Several new clothing categories have been added and apparel sorted as appropriate
 
 # Integrations
 Generally, apparel and armour items have had their research requirements adjusted to make sense and to provide a deeper sense of progression. Items have also been rebalanced to give players more reasons to use them and to make fewer items clear winners in any given category.
@@ -23,7 +24,7 @@ Nudity settings have been tweaked where appropriate, mostly for headgear. Hats, 
 * Modified research chains:
     * Rustic clothing > Noble apparel > Royal apparel
 * Beret, Corset, Formal shirt, Formal vest, Ladies hat, and Top hat require Complex clothing + Noble apparel
-* Royal apparel only requires Nobel apparel research (Rustic clothing is implicitly unlocked)
+* Royal apparel only requires Noble apparel research (Rustic clothing is implicitly unlocked)
 * Crown and Cornet also require Smithing
 
 ## Ideology
@@ -148,31 +149,32 @@ A full spreadsheet can be seen here: https://docs.google.com/spreadsheets/d/e/2P
 * Increased level requirement for Heavy Plate Armor and Helmet to 10
 * VFE shields replaced in favour of more balanced MO shields
 
-## TODO: Vanilla Apparel Expanded
+## Vanilla Apparel Expanded
 * Moved the following to Rustic clothing:
     * Tunic
     * Blouse
     * Apron
     * Gloves
+    * Scarf
+    * Shoes
 * Changed tech level of the following:
-    * Boots: Medieval > Industrial (OP stats for medieval tech level)
-    * Shoes: Medieval > Industrial (OP stats for medieval tech level)
-* The Apron has been nerfed and provides a 5% workspeed buff. It now has hitpoints and can take damage.
+    * Boots: Medieval > Industrial, style doesn't fit medieval era and overlap with MO
+    * Shoes: Industrial > Medieval
+    * Scarf: Industrial > Medieval
+* The Apron has been nerfed and provides a 5% general labor buff.
+* Most clothing has been rebalanced to be closer to Vanilla stats
+* Renamed gloves to mittens and removed comfy temp in exchange for better material buff
 
 ## TODO: Vanilla Apparel Expanded + Royalty
-* Rename Royalty cape to Shoulder cape to differentiate from VE Cape
-
-## TODO: Vanilla Apparel Expanded + Biotech
-* Rename Biotech cape to Shoulder cape to differentiate from VE Cape
+* Moved Fedora, Shirt and tie, Skirt, Suit Jacket, and Trousers to Royalty NobleApparel
+* Deleted Formal Wear research
 
 ## Vanilla Apparel Expanded + Anomaly
-* VE lab coat renamed to Chemist's lab coat, research speed nerfed to 5%
-* TODO: Rebalance stats
+* VE lab coat renamed to Chemist's lab coat, removed research speed buff
+* Anomaly lab coat renamed to Researcher's lab coat, requires Sterile Attire to unlock
 
 ## TODO: Vanilla Apparel Expanded + Medieval Overhaul
-* Renamed VE Trousers to Suit trousers to distinguish from MO Trousers
-* VE Gloves renamed to mittens and slightly nerfed
-* MO Boots renamed to Jackboots, slightly nerfed
+* MO Boots renamed to jackboots
 
 ## TODO: Vanilla Armour Expanded
 * Leather tanning research now requires Rustic clothing prerequisite
@@ -195,6 +197,8 @@ A full spreadsheet can be seen here: https://docs.google.com/spreadsheets/d/e/2P
 
 ## Roo's Satyr and Faun Xenotypes Expanded
 * Removed Fae craftables from tribal start. Now only the scenarios added by the mod start with this unlocked.
+* Rebalanced Fae apparel
+* Added Kid faegarms to new Kid Apparel category
 
 ## Roo's Minotaur Xenotype Expanded
 * Added new research project, Minotaur craftables
@@ -219,6 +223,15 @@ A full spreadsheet can be seen here: https://docs.google.com/spreadsheets/d/e/2P
 
 ## Vanilla Factions Expanded - Classical
 * Rebalanced armours and shields to make them worse than their medieval counterparts
+
+
+## Vanilla Factions Expanded - Classical + Medieval Overhaul
+* TODO: Research & Bronze Changes:
+    * Furnace moved to Stonecutting technology
+    * Bronze recipe changed to require Iron ore + Chunks
+    * Bronze craftable in Furnace.
+    * Armour and shields craftable on Republic crafting bench
+    * Armour and shields research requires Crafting bench pre-requisite
 
 ## TODO:
 * Vanilla Genentics Expanded: 
