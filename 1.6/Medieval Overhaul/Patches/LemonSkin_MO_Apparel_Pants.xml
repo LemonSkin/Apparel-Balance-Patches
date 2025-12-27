@@ -2,6 +2,12 @@
 <Patch>
   <!-- Braies, hose, trouses -->
   <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="DankPyon_Base_Pants"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[@Name="DankPyon_Base_Pants"]/statBases</xpath>
     <value>
       <statBases>

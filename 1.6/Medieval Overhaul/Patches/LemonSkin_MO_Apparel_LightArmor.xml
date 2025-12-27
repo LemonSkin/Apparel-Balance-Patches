@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <!-- Sackcloth -->
+  <!-- DankPyon_Apparel_Sackcloth -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Sackcloth"]/label</xpath>
+    <value>
+      <label>sackcloth</label>
+    </value>
+  </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Sackcloth"]/statBases/StuffEffectMultiplierInsulation_Cold</xpath>
     <value>
@@ -18,7 +24,16 @@
       </thingCategories>
     </value>
   </Operation>
-  <!-- Vest -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Culture"]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Sackcloth"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisite>VFET_Culture</researchPrerequisite>
+      </value>
+    </match>
+  </Operation>
+  <!-- DankPyon_Apparel_Leather_Tunic - Vest -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Leather_Tunic"]/costStuffCount</xpath>
     <value>
@@ -53,6 +68,15 @@
       <thingCategories>
         <li>LemonSkin_MedievalArmor</li>
       </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Leather_Tunic"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisites>
+        <li>LemonSkin_RusticClothing</li>
+        <li>DankPyon_LeatherTanning</li>
+      </researchPrerequisites>
     </value>
   </Operation>
   <!-- Padded surcoat -->
@@ -98,6 +122,15 @@
       <thingCategories>
         <li>LemonSkin_MedievalArmor</li>
       </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Padded_Surcoat"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisites>
+        <li>LemonSkin_RusticClothing</li>
+        <li>DankPyon_LeatherTanning</li>
+      </researchPrerequisites>
     </value>
   </Operation>
   <!-- Gambeson -->
@@ -147,6 +180,15 @@
       <thingCategories>
         <li>LemonSkin_MedievalApparel</li>
       </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Dankpyon_Apparel_Gambeson"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisites>
+        <li>LemonSkin_RusticClothing</li>
+        <li>DankPyon_LeatherTanning</li>
+      </researchPrerequisites>
     </value>
   </Operation>
   <!-- Padded Armor -->

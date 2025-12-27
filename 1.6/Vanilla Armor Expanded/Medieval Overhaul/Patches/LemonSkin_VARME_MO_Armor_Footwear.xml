@@ -3,15 +3,20 @@
   <!-- Plate Boots -->
   <Operation Class="PatchOperationFindMod">
     <mods>
-      <li>Full Armor - Hands and Feet</li>
-      <li>Combat Extended</li>
+      <li>Royalty</li>
     </mods>
-    <nomatch Class="PatchOperationReplace">
-      <xpath>/Defs/PawnKindDef[@Name="ImperialFighterBase"]/apparelRequired/li[.="VAE_Footwear_PlateBoots"]</xpath>
-      <value>
-        <li>DankPyon_Footwear_BootsPlate</li>
-      </value>
-    </nomatch>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Full Armor - Hands and Feet</li>
+        <li>Combat Extended</li>
+      </mods>
+      <nomatch Class="PatchOperationReplace">
+        <xpath>/Defs/PawnKindDef[@Name="ImperialFighterBase"]/apparelRequired/li[.="VAE_Footwear_PlateBoots"]</xpath>
+        <value>
+          <li>DankPyon_Footwear_BootsPlate</li>
+        </value>
+      </nomatch>
+    </match>
   </Operation>
   <Operation Class="PatchOperationRemove">
     <xpath>Defs/ThingDef[defName="VAE_Footwear_PlateBoots"]</xpath>

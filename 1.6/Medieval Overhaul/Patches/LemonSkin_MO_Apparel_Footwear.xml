@@ -2,6 +2,12 @@
 <Patch>
   <!-- Leather Boots -->
   <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Footwear_BootsLeather"]/label</xpath>
+    <value>
+      <label>jackboots</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Footwear_BootsLeather"]/costStuffCount</xpath>
     <value>
       <costStuffCount>35</costStuffCount>

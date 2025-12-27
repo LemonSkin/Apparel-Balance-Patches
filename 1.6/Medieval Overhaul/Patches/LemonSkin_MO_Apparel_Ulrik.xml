@@ -96,7 +96,13 @@
       </equippedStatOffsets>
     </value>
   </Operation>
-  <!-- Chain coif (adorned) -->
+  <!-- DankPyon_Adorned_HeavyMailCoif - Chain coif (adorned) -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Adorned_HeavyMailCoif"]/label</xpath>
+    <value>
+      <label>chain coif (adorned)</label>
+    </value>
+  </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Adorned_HeavyMailCoif"]/recipeMaker/skillRequirements/Crafting</xpath>
     <value>
@@ -139,7 +145,13 @@
       </thingCategories>
     </value>
   </Operation>
-  <!-- Chainveil helm (adorned) -->
+  <!-- DankPyon_Adorned_FlatTop - Chainveil helm (adorned) -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Adorned_FlatTop"]/label</xpath>
+    <value>
+      <label>chainveil helm (adorned)</label>
+    </value>
+  </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Adorned_FlatTop"]/recipeMaker/skillRequirements/Crafting</xpath>
     <value>

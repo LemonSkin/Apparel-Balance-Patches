@@ -144,6 +144,15 @@
       </thingCategories>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="DankPyon_ZweihanderCuirassBase"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisites>
+        <li>PlateArmor</li>
+        <li MayRequire="Ludeon.RimWorld.Royalty">NobleApparel</li>
+      </researchPrerequisites>
+    </value>
+  </Operation>
   <!-- Full plate -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Apparel_FullPlate"]/statBases</xpath>
@@ -206,6 +215,15 @@
       <thingCategories>
         <li>LemonSkin_MedievalArmor</li>
       </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_FullPlateGilded"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisites>
+        <li>PlateArmor</li>
+        <li MayRequire="Ludeon.RimWorld.Royalty">RoyalApparel</li>
+      </researchPrerequisites>
     </value>
   </Operation>
   <!-- Named full plate -->
